@@ -1,0 +1,20 @@
+{
+  "nav": { "home": "Accueil", "about": "À propos", "service": "Services", "pricing": "Tarifs", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Article", "team": "Équipe", "testi": "Avis", "contact": "Contact", "quote": "Devis gratuit", "pages": "Pages", "faq": "FAQ" },
+  "top": { "hours": "LUN–SAM · 08:00–20:00 · LIGNE 24/7" },
+  "hero": { "kicker": "● REC — VIDÉOSURVEILLANCE HD · NVR · INSTALLATION · SUPPORT", "t1a": "DES YEUX SUR", "t1b": "CHAQUE ANGLE.", "sub": "CCTV 4K, NVR + sauvegarde cloud et installation certifiée pour maisons, commerces et industrie. Étude en 24h. Pose en 48h.", "cta1": "Étude gratuite", "cta2": "Voir tarifs", "s1t": "DISSUASION 4K, JOUR & NUIT", "s1d": "ColorVu + IR jusqu'à 40m. Détection IA : −92% de fausses alertes.", "s2t": "NVR + CLOUD, ZÉRO ANGLE MORT", "s2d": "Kits PoE 4–64ch, 30 jours de rétention, app + salle de contrôle.", "s3t": "INSTALLER · MAINTENIR · SURVEILLER", "s3d": "Techniciens certifiés, garantie 3 ans, support 24/7 avec SLA." },
+  "strip": { "a": "4K ULTRA-HD", "b": "DÉTECTION IA", "c": "NVR + CLOUD", "d": "SURVEILLANCE 24/7", "e": "GARANTIE 3 ANS", "f": "POSE 48H" },
+  "stats": { "cams": "Caméras installées", "sites": "Sites protégés", "years": "Années de service", "sla": "Réponse SLA" },
+  "home_about": { "k": "QUI SOMMES-NOUS", "t": "INGÉNIEURS SÉCURITÉ, PAS VENDEURS.", "d": "Repérage, câblage propre, zones de détection réglées et un système que vos équipes utilisent vraiment.", "cta": "À propos" },
+  "svc": { "k": "NOS MÉTIERS", "t": "SERVICES CCTV COMPLETS.", "d": "Étude → pose → télésurveillance. Un contrat, un SLA.", "cta": "Tous les services" },
+  "services": { "s1t": "Installation CCTV", "s1d": "Kits PoE 4/8/16ch, dômes anti-vandales, bullet + PTZ.", "s2t": "NVR et stockage", "s2d": "NVR RAID, rétention 30–90 jours, onduleur + miroir cloud.", "s3t": "Télésurveillance", "s3d": "PC 24/7, audio bidirectionnel, événements vérifiés.", "s4t": "Interphone + accès", "s4d": "Portails et portes liés aux caméras. Une app : voir, parler, ouvrir.", "s5t": "Maintenance", "s5d": "Nettoyage, firmware, mise au point, santé HDD, SLA 8h.", "s6t": "Audit & upgrade", "s6d": "Cartographie des angles morts. Câble réutilisé, têtes en 4K." },
+  "pricing": { "k": "TARIFS", "t": "FORFAITS FIXES. SANS SURPRISE.", "d": "Matériel + pose + garantie 3 ans.", "cta": "Choisir", "pop": "LE PLUS POSÉ" },
+  "blog": { "k": "CARNET DE TERRAIN", "t": "DEPUIS LE BLOG.", "cta": "Lire l'article", "all": "Tous les articles" },
+  "testi": { "k": "AVIS", "t": "LA CONFIANCE DE NUIT.", "d": "4,9/5 sur 210 avis vérifiés." },
+  "cta_band": { "t": "UNE VISITE. ZÉRO ANGLE MORT.", "d": "Envoyez 3 photos façade + portail. Plan caméras + devis ferme en 24h.", "b1": "Demander une étude", "b2": "Appeler le PC" },
+  "news": { "t": "BRIEF ÉQUIPE DE NUIT.", "d": "Un email/mois : tactiques, alertes firmware, zéro spam.", "ph": "email pro", "b": "S'abonner", "ok": "Inscrit. Vérifiez votre boîte mail." },
+  "foot": { "d": "Étude, pose et télésurveillance CCTV 24/7. Agréé, assuré, RGPD.", "col1": "Société", "col2": "Services", "col3": "PC 24/7", "rights": "Tous droits réservés." },
+  "contact": { "k": "CONTACT", "t": "PARLEZ AU PC.", "d": "Joignez photos ou plans — réponse en < 4h ouvrées.", "name": "Nom complet", "msg": "Décrivez le site (portes, portail, angles morts…)", "send": "Envoyer", "ok": "Message reçu. Le PC répond vite.", "info": "Siège & PC" },
+  "about_page": { "k": "À PROPOS", "t": "L'ÉQUIPE DERRIÈRE LES OBJECTIFS.", "d": "12 ingénieurs, 3 opérateurs, 1 obsession : zéro angle mort." },
+  "team": { "k": "ÉQUIPE", "t": "LES OPÉRATEURS.", "d": "Ingénieurs agréés + vétérans du PC." },
+  "form": { "comment_t": "Laisser un commentaire", "c_send": "Publier", "c_ok": "Commentaire en modération. Merci !" }
+}

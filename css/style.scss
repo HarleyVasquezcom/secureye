@@ -1,0 +1,26 @@
+// ============================================================
+// SECUREYE CCTV — style.scss (Sass source, compiles to style.css)
+// Palette: $black #050505, $coal #141414, $orange #FF5C00, $silver #C0C5CE
+// Type: Oswald (headings) + Barlow Condensed (body)
+// ============================================================
+$black:#050505; $coal:#141414; $panel:#1b1b1d; $line:#2a2a2e;
+$orange:#FF5C00; $orange-d:#c74800; $silver:#C0C5CE; $mut:#9aa0aa;
+$font-h:'Oswald',sans-serif; $font-b:'Barlow Condensed',sans-serif;
+
+@mixin tex-bg{ background-color:$black;
+  background-image:radial-gradient(circle at 20% 0%,#ffffff08,transparent 40%),repeating-linear-gradient(45deg,#ffffff06 0 2px,transparent 2px 6px);}
+@mixin hd{ font-family:$font-h; text-transform:uppercase; font-weight:700; letter-spacing:.02em; line-height:1.02;}
+body{ @include tex-bg; color:#e8eaed; font-family:$font-b; font-size:1.06rem; letter-spacing:.015em;}
+h1,h2,h3,h4,.hd{ @include hd; }
+.sec-tag{ display:inline-flex; align-items:center; gap:.5rem; color:$orange; font-weight:700; letter-spacing:.22em; font-size:.78rem; text-transform:uppercase;
+  &::before{content:""; width:26px; height:2px; background:$orange; display:inline-block;}}
+.card-dark{ background:$panel; border:1px solid $line; }
+.btn-burn{ background:$orange; border-color:$orange; color:#0a0a0a; font-family:$font-h; text-transform:uppercase; font-weight:700; letter-spacing:.06em;
+  &:hover{ background:$orange-d; border-color:$orange-d; color:#fff; transform:translateY(-2px); box-shadow:0 8px 24px #ff5c0044;}}
+.img-bw{ filter:grayscale(1) contrast(1.18) brightness(.94); }
+.hero-kenburns img{ animation:kb 14s ease-in-out infinite alternate; }
+@keyframes kb{ from{transform:scale(1)} to{transform:scale(1.12)} }
+.reveal{ opacity:0; transform:translateY(26px); transition:all .7s cubic-bezier(.2,.7,.2,1);
+  &.on{opacity:1; transform:none;} }
+.hover-lift{ transition:transform .3s, box-shadow .3s, border-color .3s;
+  &:hover{ transform:translateY(-6px); border-color:$orange; box-shadow:0 18px 40px #000000aa, 0 0 0 1px $orange; } }

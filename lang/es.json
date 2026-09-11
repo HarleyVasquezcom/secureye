@@ -1,0 +1,20 @@
+{
+  "nav": { "home": "Inicio", "about": "Nosotros", "service": "Servicios", "pricing": "Precios", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Artículo", "team": "Equipo", "testi": "Opiniones", "contact": "Contacto", "quote": "Pedir presupuesto", "pages": "Páginas", "faq": "FAQ" },
+  "top": { "hours": "LUN–SÁB · 08:00–20:00 · LÍNEA 24/7" },
+  "hero": { "kicker": "● REC — VIDEOVIGILANCIA HD · NVR · INSTALACIÓN · SOPORTE", "t1a": "OJOS EN", "t1b": "CADA ÁNGULO.", "sub": "CCTV 4K, NVR + copia en nube e instalación certificada para hogar, retail e industria. Diseño en 24h. Instalación en 48h.", "cta1": "Estudio gratuito", "cta2": "Ver precios", "s1t": "DISUASIÓN 4K, DÍA Y NOCHE", "s1d": "ColorVu + IR hasta 40m. Detección IA que reduce falsas alarmas un 92%.", "s2t": "NVR + NUBE, CERO PUNTOS CIEGOS", "s2d": "Kits PoE 4–64ch, 30 días de retención, app + sala de control.", "s3t": "INSTALAMOS · MANTENEMOS · VIGILAMOS", "s3d": "Técnicos certificados, 3 años de garantía, soporte 24/7 con SLA." },
+  "strip": { "a": "4K ULTRA-HD", "b": "DETECCIÓN IA", "c": "NVR + NUBE", "d": "MONITOREO 24/7", "e": "GARANTÍA 3 AÑOS", "f": "INSTALACIÓN 48H" },
+  "stats": { "cams": "Cámaras instaladas", "sites": "Sitios protegidos", "years": "Años de servicio", "sla": "Respuesta SLA" },
+  "home_about": { "k": "QUIÉNES SOMOS", "t": "INGENIEROS DE SEGURIDAD, NO VENDEDORES.", "d": "Estudiamos, diseñamos cableado, ajustamos zonas de movimiento y entregamos un sistema que su personal sí usa.", "cta": "Sobre la empresa" },
+  "svc": { "k": "QUÉ HACEMOS", "t": "SERVICIOS CCTV INTEGRALES.", "d": "Estudio → instalación → monitoreo. Un contrato, un SLA.", "cta": "Todos los servicios" },
+  "services": { "s1t": "Instalación CCTV", "s1d": "Kits PoE 4/8/16ch, domos antivandálicos, bullet + PTZ.", "s2t": "NVR y almacenamiento", "s2d": "NVR RAID, retención 30–90 días, SAI + espejo en nube.", "s3t": "Monitoreo remoto", "s3d": "Central 24/7, audio bidireccional, eventos verificados.", "s4t": "Videoportero + accesos", "s4d": "Puertas y portones ligados a cámaras. Una app: ver, hablar, abrir.", "s5t": "Mantenimiento", "s5d": "Limpieza, firmware, enfoque, salud de HDD, SLA 8h.", "s6t": "Auditoría y mejora", "s6d": "Mapa de puntos ciegos. Reutilizamos cable y subimos a 4K." },
+  "pricing": { "k": "PRECIOS", "t": "PACKS CERRADOS. SIN SORPRESAS.", "d": "Hardware + instalación + 3 años de garantía.", "cta": "Elegir plan", "pop": "MÁS INSTALADO" },
+  "blog": { "k": "NOTAS DE CAMPO", "t": "DESDE EL BLOG.", "cta": "Leer artículo", "all": "Todos los artículos" },
+  "testi": { "k": "OPINIONES", "t": "CONFIANZA EN TURNO NOCTURNO.", "d": "4,9/5 en 210 reseñas verificadas." },
+  "cta_band": { "t": "UNA VISITA. CERO PUNTOS CIEGOS.", "d": "Envía 3 fotos de fachada + portón. Te devolvemos mapa de cámaras + precio cerrado en 24h.", "b1": "Solicitar estudio", "b2": "Llamar a central" },
+  "news": { "t": "BOLETÍN TURNO NOCTURNO.", "d": "Un email/mes: tácticas, alertas de firmware, sin spam.", "ph": "email de trabajo", "b": "Suscribirse", "ok": "Suscripción confirmada. Revisa tu bandeja." },
+  "foot": { "d": "Diseño, instalación y monitoreo CCTV 24/7. Licencia, seguro y RGPD.", "col1": "Empresa", "col2": "Servicios", "col3": "Central 24/7", "rights": "Todos los derechos reservados." },
+  "contact": { "k": "CONTACTO", "t": "HABLA CON CENTRAL.", "d": "Adjunta fotos o planos — respondemos en < 4h laborables.", "name": "Nombre completo", "msg": "Cuéntanos del sitio (puertas, portón, puntos ciegos…)", "send": "Enviar mensaje", "ok": "Mensaje recibido. Central responderá en breve.", "info": "HQ y central" },
+  "about_page": { "k": "NOSOTROS", "t": "EL EQUIPO TRAS LOS OBJETIVOS.", "d": "12 ingenieros, 3 operadores, 1 obsesión: cero puntos ciegos." },
+  "team": { "k": "EQUIPO", "t": "CONOCE A LOS OPERADORES.", "d": "Ingenieros licenciados + veteranos de central." },
+  "form": { "comment_t": "Deja un comentario", "c_send": "Publicar", "c_ok": "Comentario en moderación. ¡Gracias!" }
+}

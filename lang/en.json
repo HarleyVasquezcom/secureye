@@ -1,0 +1,49 @@
+{
+  "meta": { "brand": "SECUREYE", "tag": "CCTV & Security Services" },
+  "nav": {
+    "home": "Home", "about": "About", "service": "Services", "pricing": "Pricing",
+    "blog": "Blog", "blogGrid": "Blog Grid", "blogDetail": "Blog Detail",
+    "team": "Team", "testi": "Testimonials", "contact": "Contact", "quote": "Get a Quote",
+    "pages": "Pages", "lang": "Language", "faq": "FAQ",
+    "e404k": "ERROR 404 · SIGNAL LOST"
+  },
+  "top": { "phone": "+1 (555) 013-4477", "email": "ops@secureye.example", "hours": "MON–SAT · 08:00–20:00 · 24/7 ALARM LINE" },
+  "hero": {
+    "kicker": "● REC — HD SURVEILLANCE · NVR · INSTALL · SUPPORT",
+    "t1a": "EYES ON", "t1b": "EVERY ANGLE.",
+    "sub": "4K CCTV, NVR + cloud backup, and certified installation for homes, retail and industry. Design in 24h. Install in 48h.",
+    "cta1": "Get a free site survey", "cta2": "View pricing",
+    "s1t": "4K DETERRENCE, DAY & NIGHT", "s1d": "ColorVu + IR up to 40m. AI human/vehicle detection cuts false alarms by 92%.",
+    "s2t": "NVR + CLOUD, ZERO BLIND SPOTS", "s2d": "PoE kits 4–64ch, 30-day retention, phone + control-room viewing.",
+    "s3t": "INSTALL · MAINTAIN · MONITOR", "s3d": "Certified techs, 3-year warranty, 24/7 support line and SLA response."
+  },
+  "strip": { "a": "4K ULTRA-HD", "b": "AI DETECTION", "c": "NVR + CLOUD", "d": "24/7 MONITORING", "e": "3-YEAR WARRANTY", "f": "48H INSTALL" },
+  "stats": { "cams": "Cameras installed", "sites": "Sites protected", "years": "Years on duty", "sla": "SLA response" },
+  "home_about": { "k": "WHO WE ARE", "t": "SECURITY ENGINEERS, NOT BOX-MOVERS.", "d": "We survey, design cable paths, tune motion zones and hand over a system your staff actually uses. 480+ sites, 9.600+ channels live.", "p1": "Licensed & insured installers", "p2": "Hikvision · Dahua · Axis partner", "p3": "GDPR signage + retention policy", "cta": "About the company" },
+  "svc": { "k": "WHAT WE DO", "t": "FULL-STACK CCTV SERVICES.", "d": "Survey → install → monitor. One contract, one SLA.", "cta": "All services" },
+  "services": {
+    "s1t": "CCTV Installation", "s1d": "4/8/16ch PoE kits, vandal domes, bullet + PTZ. Clean cabling, labeled NVR.",
+    "s2t": "NVR & Storage", "s2d": "RAID NVR, 30–90 day retention sizing, UPS + off-site cloud mirror.",
+    "s3t": "Remote Monitoring", "s3d": "24/7 control room, two-way audio challenge, police-callable events.",
+    "s4t": "Video Intercom + Access", "s4d": "Gate + door stations tied to cameras. One app: see, talk, open.",
+    "s5t": "Maintenance & Repair", "s5d": "Lens cleaning, firmware, focus/back-focus, HDD health, SLA 8h.",
+    "s6t": "Audit & Upgrade", "s6d": "Blind-spot mapping of legacy estates. Reuse cable where safe, swap heads to 4K."
+  },
+  "pricing": { "k": "PRICING PLAN", "t": "FLAT PACKS. NO SURPRISES.", "d": "Hardware + install + 3-yr warranty. Monitoring optional.", "cta": "Choose plan", "pop": "MOST DEPLOYED", "per": "/one-time" },
+  "plans": {
+    "p1t": "HOME 4-CAM", "p1p": "$690", "p1f": ["4× 4K PoE turrets", "4ch NVR · 2TB · 30 days", "Phone app + 1 TV view", "48h install"],
+    "p2t": "RETAIL 8-CAM", "p2p": "$1,490", "p2f": ["8× 4K + 1 PTZ option", "8ch NVR · 6TB · 30 days", "POS overlay + people count", "Staff training"],
+    "p3t": "SITE 16-CAM", "p3p": "$2,890", "p3f": ["16× 4K + ANPR ready", "16ch RAID · 60 days", "Control-room wall + cloud", "SLA 8h · 3 years"]
+  },
+  "blog": { "k": "FIELD NOTES", "t": "FROM THE BLOG GRID.", "cta": "Open article", "all": "All articles" },
+  "testi": { "k": "TESTIMONIALS", "t": "TRUSTED ON NIGHT SHIFT.", "d": "4.9/5 across 210 verified reviews." },
+  "cta_band": { "t": "ONE WALKTHROUGH. ZERO BLIND SPOTS.", "d": "Send 3 photos of your facade + gate. We return a camera map + fixed quote in 24h.", "b1": "Request survey", "b2": "Call dispatch" },
+  "news": { "t": "GET THE NIGHT-SHIFT BRIEF.", "d": "One email/month: deterrence tactics, firmware alerts, no spam.", "ph": "work email", "b": "Subscribe", "ok": "Subscribed. Check your inbox to confirm." },
+  "foot": { "d": "CCTV design, install and 24/7 monitoring. Licensed, insured, GDPR-aware.", "col1": "Company", "col2": "Services", "col3": "Dispatch 24/7", "rights": "All rights reserved." },
+  "contact": { "k": "CONTACT", "t": "TALK TO DISPATCH.", "d": "Attach photos or floor plans — we answer in < 4 business hours.", "name": "Full name", "email": "Email", "phone": "Phone", "topic": "Topic", "msg": "Tell us about the site (doors, gate, blind spots…)", "send": "Send message", "ok": "Message received. Dispatch will reply shortly.", "info": "HQ & control room", "map": "Coverage map" },
+  "about_page": { "k": "ABOUT US", "t": "THE CREW BEHIND THE LENSES.", "d": "12 field engineers, 3 control-room operators, 1 obsession: no blind spots." },
+  "team": { "k": "TEAM", "t": "MEET THE OPERATORS.", "d": "Licensed engineers + control-room veterans." },
+  "form": { "comment_t": "Leave a comment", "comment_d": "Moderated. No links, no spam.", "c_name": "Name", "c_email": "Email", "c_msg": "Comment", "c_send": "Post comment", "c_ok": "Comment queued for moderation. Thanks!" },
+  "faq": { "t": "STRAIGHT ANSWERS. NO JARGON.", "d": "Storage, cable, AI, GDPR, monitoring — the 8 questions dispatch hears daily.", "q1": "How much storage do I need for 30 days of 4K?", "a1": "Rule of thumb: 4× 4K cams at 8 Mbps + 40% motion ≈ 2 TB for 30 days.", "q2": "How far can PoE cameras run from the NVR?", "a2": "90 m on solid copper Cat6, surge-protected both ends.", "q3": "Will AI detection stop false alarms from trees and cats?", "a3": "Yes — when tuned. Tight polygons + min-object size cut events ~92%.", "q4": "Is CCTV GDPR-compliant? Do I need signs?", "a4": "Yes, signs are mandatory where cameras cover shared/public areas.", "q5": "What does 24/7 monitoring cost, and what happens on alarm?", "a5": "From $49/mo. Operator reviews in <60 s, audio challenge, then escalation.", "q6": "What warranty and SLA do I get?", "a6": "3-year warranty. Retail/Site: 8 h SLA with loan cameras.", "q7": "Can I view cameras on my phone and in the office?", "a7": "Both. Phone app + TV/PC view included in every pack.", "q8": "How fast is the quote? Do you reuse existing cable?", "a8": "Fixed quote in 24 h. We reuse healthy copper after a cable test.", "side_t": "STILL STUCK?", "side_d": "Send 3 photos of facade + gate. Camera map + fixed quote in 24 h." },
+  "e404": { "kicker": "ERROR 404 · SIGNAL LOST", "t": "THIS FEED WENT DARK.", "d": "The page moved, was renamed, or never existed. Pick a live feed below — or ask dispatch.", "b1": "Back to home", "b2": "Contact dispatch", "hint": "Tip: check the URL spelling, or use search on the blog grid." }
+}

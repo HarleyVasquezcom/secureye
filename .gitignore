@@ -1,0 +1,10 @@
+# deps
+node_modules/
+# vercel
+.vercel/
+# logs / os
+*.log
+.DS_Store
+Thumbs.db
+# local screenshots (live in the epic artifacts folder, not the repo)
+/shots/
