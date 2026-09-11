@@ -1,50 +1,343 @@
 {
-  "meta": { "brand": "SECUREYE", "tag": "Security Cameras & Video Surveillance in Colombia" },
-  "nav": {
-    "home": "Home", "about": "About", "service": "Cameras & Kits", "pricing": "Pricing",
-    "blog": "Blog", "blogGrid": "Blog Grid", "blogDetail": "Blog Detail",
-    "team": "Team", "testi": "Testimonials", "contact": "Contact", "quote": "Get a Quote",
-    "pages": "Pages", "lang": "Language", "faq": "FAQ",
-    "e404k": "ERROR 404 · SIGNAL LOST"
+  "meta": {
+    "brand": "SECUREYE",
+    "tag": "Security Cameras & Video Surveillance in Colombia"
   },
-  "top": { "phone": "+57 (601) 508-1234", "email": "contacto@secureye.co", "hours": "MON–SAT · 08:00–20:00 · 24/7 LINE · ALL COLOMBIA" },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "service": "Cameras & Kits",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "blogGrid": "Blog Grid",
+    "blogDetail": "Blog Detail",
+    "team": "Team",
+    "testi": "Testimonials",
+    "contact": "Contact",
+    "quote": "Get a Quote",
+    "pages": "Pages",
+    "lang": "Language",
+    "faq": "FAQ",
+    "e404k": "ERROR 404 · SIGNAL LOST",
+    "catalog": "Catalog"
+  },
+  "top": {
+    "phone": "+57 (601) 508-1234",
+    "email": "contacto@secureye.co",
+    "hours": "MON–SAT · 08:00–20:00 · 24/7 LINE · ALL COLOMBIA"
+  },
   "hero": {
     "kicker": "● REC — SECURITY CAMERAS · DVR/NVR · INSTALL · SUPPORT IN COLOMBIA",
-    "t1a": "SECURITY CAMERAS", "t1b": "& VIDEO SURVEILLANCE.",
+    "t1a": "SECURITY CAMERAS",
+    "t1b": "& VIDEO SURVEILLANCE.",
     "sub": "Protect what matters most with reliable tech: Hikvision, Dahua, Ezviz, HiLook and UNV. Real-time video from your phone. Quote in 24h.",
-    "cta1": "Get a free quote", "cta2": "View prices in COP",
-    "s1t": "HOMES & APARTMENTS", "s1d": "2MP/4MP WiFi and dome cams with two-way audio. Watch from your phone (Android/iOS).",
-    "s2t": "BUSINESS & WAREHOUSES", "s2d": "4MP/8MP bullet and PTZ, IR up to 30m, IP67. DVR/NVR kits 4–16ch with 1TB–4TB HDD.",
-    "s3t": "WE INSTALL ALL OVER COLOMBIA", "s3d": "Capitals in 1–3 business days, rest of the country in 3–7. Manufacturer warranty + local support."
+    "cta1": "Get a free quote",
+    "cta2": "View prices in COP",
+    "s1t": "HOMES & APARTMENTS",
+    "s1d": "2MP/4MP WiFi and dome cams with two-way audio. Watch from your phone (Android/iOS).",
+    "s2t": "BUSINESS & WAREHOUSES",
+    "s2d": "4MP/8MP bullet and PTZ, IR up to 30m, IP67. DVR/NVR kits 4–16ch with 1TB–4TB HDD.",
+    "s3t": "WE INSTALL ALL OVER COLOMBIA",
+    "s3d": "Capitals in 1–3 business days, rest of the country in 3–7. Manufacturer warranty + local support."
   },
-  "strip": { "a": "HIKVISION · DAHUA", "b": "2MP / 4MP / 8MP", "c": "DVR + NVR", "d": "PHONE APP", "e": "WARRANTY + CO SUPPORT", "f": "HOME · SHOP · WAREHOUSE" },
-  "seg": { "k": "WHO FOR", "t": "HOMES, SHOPS AND WAREHOUSES.", "s1": "Homes", "s1d": "WiFi + indoor dome", "s2": "Business", "s2d": "Dome + access", "s3": "Retail stores", "s3d": "Outdoor bullet + POS", "s4": "Warehouses", "s4d": "PTZ + 16ch kits" },
-  "stats": { "cams": "Cameras installed", "sites": "Sites protected", "years": "Years on duty", "sla": "SLA response" },
-  "home_about": { "k": "WHO WE ARE", "t": "SECURITY ENGINEERS IN COLOMBIA.", "d": "Personal advice, professional install and full backup. Hikvision, Dahua, Ezviz, HiLook and UNV with manufacturer warranty.", "p1": "Certified local technicians", "p2": "Hikvision · Dahua · Ezviz · HiLook · UNV", "p3": "Warranty + tech support in Colombia", "cta": "About the company" },
-  "svc": { "k": "CATALOG", "t": "CAMERAS, KITS & INSTALL.", "d": "Equipment sales, DVR/NVR kits and install across Colombia.", "cta": "View catalog" },
+  "strip": {
+    "a": "HIKVISION · DAHUA",
+    "b": "2MP / 4MP / 8MP",
+    "c": "DVR + NVR",
+    "d": "PHONE APP",
+    "e": "WARRANTY + CO SUPPORT",
+    "f": "HOME · SHOP · WAREHOUSE"
+  },
+  "seg": {
+    "k": "WHO FOR",
+    "t": "HOMES, SHOPS AND WAREHOUSES.",
+    "s1": "Homes",
+    "s1d": "WiFi + indoor dome",
+    "s2": "Business",
+    "s2d": "Dome + access",
+    "s3": "Retail stores",
+    "s3d": "Outdoor bullet + POS",
+    "s4": "Warehouses",
+    "s4d": "PTZ + 16ch kits"
+  },
+  "stats": {
+    "cams": "Cameras installed",
+    "sites": "Sites protected",
+    "years": "Years on duty",
+    "sla": "SLA response"
+  },
+  "home_about": {
+    "k": "WHO WE ARE",
+    "t": "SECURITY ENGINEERS IN COLOMBIA.",
+    "d": "Personal advice, professional install and full backup. Hikvision, Dahua, Ezviz, HiLook and UNV with manufacturer warranty.",
+    "p1": "Certified local technicians",
+    "p2": "Hikvision · Dahua · Ezviz · HiLook · UNV",
+    "p3": "Warranty + tech support in Colombia",
+    "cta": "About the company"
+  },
+  "svc": {
+    "k": "CATALOG",
+    "t": "CAMERAS, KITS & INSTALL.",
+    "d": "Equipment sales, DVR/NVR kits and install across Colombia.",
+    "cta": "View catalog"
+  },
   "services": {
-    "s1t": "Bullet Cameras (Outdoor)", "s1d": "2MP/4MP/8MP, IR up to 30m, IP67 dust/water, fixed or varifocal lens. From $180,000 COP.",
-    "s2t": "Dome Cameras (In/Out)", "s2d": "Discreet 2MP/4MP/8MP, 30m IR, IK10 vandal-proof. From $160,000 COP.",
-    "s3t": "PTZ Cameras (25x Zoom)", "s3d": "Pan/tilt, 25x optical zoom, smart tracking. From $1,200,000 COP.",
-    "s4t": "DVR/NVR Kits", "s4d": "4/8/16ch, 1TB–4TB HDD, cameras per kit + mobile app. From $1,200,000 COP.",
-    "s5t": "WiFi Cameras (Indoor)", "s5d": "2MP/4MP, WiFi, two-way audio, Android/iOS app. From $120,000 COP.",
-    "s6t": "Install & Support", "s6d": "Pro install in capitals (1–3 days) and nationwide (3–7 days). Tech support in Colombia."
+    "s1t": "Security cameras",
+    "s1d": "2MP–8MP IP, dome, bullet, WiFi, ColorVu, AI, PTZ and thermal. 15 refs from $150,000 COP.",
+    "s2t": "DVR / XVR / NVR",
+    "s2d": "4–64ch, H.265+, PoE and analytics. From $250,000 COP. 1–15 day delivery.",
+    "s3t": "Disks & storage",
+    "s3d": "1TB–12TB surveillance HDD by camera count. From $250,000 COP. 24/7 duty.",
+    "s4t": "PoE networks & cabling",
+    "s4d": "4–24 port switches, Cat5e/Cat6 UTP, BNC, baluns and patch panels.",
+    "s5t": "Power & UPS",
+    "s5d": "600–2200 VA UPS, regulators and 12V CCTV supplies. From $30,000 COP.",
+    "s6t": "Monitors & video wall",
+    "s6d": "22–32\" monitors, 43–55\" TVs and quoted video walls.",
+    "s7t": "Access control",
+    "s7d": "RFID, fingerprint, facial, turnstiles and vehicular. Cards from $3,000 COP.",
+    "s8t": "Alarms",
+    "s8d": "Panels, PIR, contacts, sirens and GSM/4G. Sensors from $20,000 COP.",
+    "s9t": "Video door phones",
+    "s9d": "Basic, IP, WiFi and home/building kits. From $250,000 COP.",
+    "s10t": "Perimeter protection",
+    "s10d": "Electric fences, vehicular barriers and gate automation.",
+    "s11t": "Pro install",
+    "s11d": "18 services: survey, design, cabling, setup and commissioning.",
+    "s12t": "Monthly maintenance",
+    "s12d": "Basic, Pro and Enterprise plans from $150,000 COP/mo."
   },
-  "pricing": { "k": "PRICES IN COP", "t": "EQUIPMENT + INSTALLED KITS.", "d": "By resolution, brand and camera count. VAT included. Manufacturer warranty.", "cta": "Quote this kit", "pop": "BEST SELLER", "per": "/from · installed" },
+  "pricing": {
+    "k": "REFERENCE PRICES",
+    "t": "PACKAGES + MAINTENANCE.",
+    "d": "Guide prices in COP: they shift with stock, import, warranty, quantity and city. Every project is quoted.",
+    "cta": "Quote this package",
+    "pop": "BEST SELLER",
+    "per": "/guide range"
+  },
+  "pkgs": {
+    "p1t": "BASIC HOME · 4 CAM",
+    "p1p": "$1,200,000 – $1,800,000",
+    "p1f": [
+      "4× 2MP cameras",
+      "4ch DVR · 1TB HDD",
+      "Cabling, supplies, mobile app",
+      "Basic install included"
+    ],
+    "p2t": "RETAIL · 8 CAM",
+    "p2p": "$2,500,000 – $4,000,000",
+    "p2f": [
+      "8× 2–4MP cameras",
+      "8/16ch DVR/XVR · 2TB HDD",
+      "Remote setup",
+      "Install included"
+    ],
+    "p3t": "IP BUSINESS · 8 CAM",
+    "p3p": "$6,000,000 – $10,000,000",
+    "p3f": [
+      "8× 4MP IP cameras",
+      "16ch NVR · PoE · 4TB HDD",
+      "Rack, Cat6, UPS, remote",
+      "Install included"
+    ],
+    "p4t": "INDUSTRIAL · 16–32 CAM",
+    "p4p": "From $15,000,000",
+    "p4f": [
+      "4/8MP IP + PTZ + analytics",
+      "Enterprise NVR · 8–16TB",
+      "Structured net + monitoring",
+      "Engineered to order"
+    ]
+  },
+  "maint": {
+    "k": "RECURRING REVENUE",
+    "t": "MONTHLY MAINTENANCE.",
+    "d": "We look after your system all year.",
+    "m1t": "Basic Plan",
+    "m1p": "$150,000 – $300,000/mo",
+    "m1f": [
+      "Remote check + diagnostics",
+      "Phone support",
+      "Recording review"
+    ],
+    "m2t": "Pro Plan",
+    "m2p": "$300,000 – $600,000/mo",
+    "m2f": [
+      "Periodic visit + cleaning",
+      "Camera & NVR/DVR check",
+      "Storage & remote"
+    ],
+    "m3t": "Enterprise Plan",
+    "m3p": "$600,000 – $1,500,000+/mo",
+    "m3f": [
+      "Preventive + priority support",
+      "Net, UPS, access, reports",
+      "System monitoring"
+    ]
+  },
   "plans": {
-    "p1t": "HOME KIT 4-CAM", "p1p": "$1,490,000", "p1f": ["4× 2MP indoor domes", "4ch DVR · 1TB · mobile app", "Install included (capitals)", "Warranty + Colombia support"],
-    "p2t": "SHOP KIT 8-CAM", "p2p": "$3,290,000", "p2f": ["8× 4MP bullet/dome + 30m IR", "8ch NVR · 2TB · mobile app", "Install + staff training", "Warranty + Colombia support"],
-    "p3t": "WAREHOUSE KIT 16-CAM", "p3p": "$6,490,000", "p3f": ["16× 4MP + optional 25x PTZ", "16ch NVR · 4TB · remote access", "Nationwide install 3–7 days", "Warranty + Colombia support"]
+    "p1t": "HOME KIT 4-CAM",
+    "p1p": "$1,490,000",
+    "p1f": [
+      "4× 2MP indoor domes",
+      "4ch DVR · 1TB · mobile app",
+      "Install included (capitals)",
+      "Warranty + Colombia support"
+    ],
+    "p2t": "SHOP KIT 8-CAM",
+    "p2p": "$3,290,000",
+    "p2f": [
+      "8× 4MP bullet/dome + 30m IR",
+      "8ch NVR · 2TB · mobile app",
+      "Install + staff training",
+      "Warranty + Colombia support"
+    ],
+    "p3t": "WAREHOUSE KIT 16-CAM",
+    "p3p": "$6,490,000",
+    "p3f": [
+      "16× 4MP + optional 25x PTZ",
+      "16ch NVR · 4TB · remote access",
+      "Nationwide install 3–7 days",
+      "Warranty + Colombia support"
+    ]
   },
-  "blog": { "k": "FIELD NOTES", "t": "FROM THE BLOG GRID.", "cta": "Open article", "all": "All articles" },
-  "testi": { "k": "TESTIMONIALS", "t": "TRUSTED ON NIGHT SHIFT.", "d": "4.9/5 across 210 verified reviews." },
-  "cta_band": { "t": "YOUR SAFETY, OUR PRIORITY.", "d": "Personal advice: send 3 facade photos and get a camera map + quote in 24h.", "b1": "Request quote", "b2": "Call dispatch" },
-  "news": { "t": "GET THE NIGHT-SHIFT BRIEF.", "d": "One email/month: deterrence tactics, firmware alerts, no spam.", "ph": "work email", "b": "Subscribe", "ok": "Subscribed. Check your inbox to confirm." },
-  "foot": { "d": "Video surveillance systems, security cameras, install and tech support across Colombia.", "col1": "Company", "col2": "Catalog", "col3": "Dispatch 24/7", "rights": "All rights reserved." },
-  "contact": { "k": "CONTACT", "t": "TALK TO DISPATCH.", "d": "Reply in < 4 business hours. Install in capitals 1–3 days, rest of country 3–7 days.", "name": "Full name", "email": "Email", "phone": "Mobile", "topic": "Topic", "msg": "Tell us about the site (home, shop, warehouse, cameras needed…)", "send": "Send message", "ok": "Message received. Dispatch will reply shortly.", "info": "Bogotá D.C. & control room", "map": "National coverage" },
-  "about_page": { "k": "ABOUT US", "t": "THE CREW BEHIND THE LENSES.", "d": "12 field techs, 3 operators, 1 obsession: zero blind spots, across Colombia." },
-  "team": { "k": "TEAM", "t": "MEET THE OPERATORS.", "d": "Licensed engineers + control-room veterans." },
-  "form": { "comment_t": "Leave a comment", "comment_d": "Moderated. No links, no spam.", "c_name": "Name", "c_email": "Email", "c_msg": "Comment", "c_send": "Post comment", "c_ok": "Comment queued for moderation. Thanks!" },
-  "faq": { "t": "STRAIGHT ANSWERS. NO JARGON.", "d": "Prices, shipping, install and warranty in Colombia.", "q1": "How much does a security camera cost?", "a1": "WiFi from $120,000, dome from $160,000, bullet from $180,000, PTZ from $1,200,000 COP, by resolution (2MP/4MP/8MP) and brand.", "q2": "How long is delivery in Colombia?", "a2": "In stock: 1–3 business days nationwide. Made-to-order/import: 5–10 business days by model and quantity.", "q3": "Do you install outside Bogotá?", "a3": "Yes. Main capitals: 1–3 business days. Other cities: 3–7 business days. Install is optional, quoted with the kit.", "q4": "Do units carry warranty?", "a4": "All carry manufacturer warranty plus tech support in Colombia.", "q5": "Which brands do you carry?", "a5": "Colombia's most common: Hikvision, Dahua, Ezviz, HiLook and UNV.", "q6": "Can I watch from my phone?", "a6": "Yes. All kits and WiFi cams include a mobile app (Android/iOS) with real-time video, two-way audio and alerts.", "q7": "What does a DVR/NVR kit include?", "a7": "Recorder (4/8/16ch DVR or NVR), HDD (1TB–4TB), cameras per kit and remote app access.", "q8": "WiFi or wired camera?", "a8": "WiFi: easy install, best indoors. Wired (PoE): steadier, up to 90 m, best outdoors and warehouses.", "side_t": "STILL STUCK?", "side_d": "Send 3 facade + gate photos. Camera map + quote in 24 h." },
-  "e404": { "kicker": "ERROR 404 · SIGNAL LOST", "t": "THIS FEED WENT DARK.", "d": "The page moved, was renamed, or never existed. Pick a live feed below — or ask dispatch.", "b1": "Back to home", "b2": "Contact dispatch", "hint": "Tip: check the URL spelling, or use search on the blog grid." }
+  "blog": {
+    "k": "FIELD NOTES",
+    "t": "FROM THE BLOG GRID.",
+    "cta": "Open article",
+    "all": "All articles"
+  },
+  "testi": {
+    "k": "TESTIMONIALS",
+    "t": "TRUSTED ON NIGHT SHIFT.",
+    "d": "4.9/5 across 210 verified reviews."
+  },
+  "cta_band": {
+    "t": "YOUR SAFETY, OUR PRIORITY.",
+    "d": "Personal advice: send 3 facade photos and get a camera map + quote in 24h.",
+    "b1": "Request quote",
+    "b2": "Call dispatch"
+  },
+  "news": {
+    "t": "GET THE NIGHT-SHIFT BRIEF.",
+    "d": "One email/month: deterrence tactics, firmware alerts, no spam.",
+    "ph": "work email",
+    "b": "Subscribe",
+    "ok": "Subscribed. Check your inbox to confirm."
+  },
+  "foot": {
+    "d": "Video surveillance systems, security cameras, install and tech support across Colombia.",
+    "col1": "Company",
+    "col2": "Catalog",
+    "col3": "Dispatch 24/7",
+    "rights": "All rights reserved."
+  },
+  "contact": {
+    "k": "CONTACT",
+    "t": "TALK TO DISPATCH.",
+    "d": "Reply in < 4 business hours. Install in capitals 1–3 days, rest of country 3–7 days.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Mobile",
+    "topic": "Topic",
+    "msg": "Tell us about the site (home, shop, warehouse, cameras needed…)",
+    "send": "Send message",
+    "ok": "Message received. Dispatch will reply shortly.",
+    "info": "Bogotá D.C. & control room",
+    "map": "National coverage"
+  },
+  "about_page": {
+    "k": "ABOUT US",
+    "t": "THE CREW BEHIND THE LENSES.",
+    "d": "12 field techs, 3 operators, 1 obsession: zero blind spots, across Colombia."
+  },
+  "team": {
+    "k": "TEAM",
+    "t": "MEET THE OPERATORS.",
+    "d": "Licensed engineers + control-room veterans."
+  },
+  "form": {
+    "comment_t": "Leave a comment",
+    "comment_d": "Moderated. No links, no spam.",
+    "c_name": "Name",
+    "c_email": "Email",
+    "c_msg": "Comment",
+    "c_send": "Post comment",
+    "c_ok": "Comment queued for moderation. Thanks!"
+  },
+  "faq": {
+    "t": "STRAIGHT ANSWERS. NO JARGON.",
+    "d": "Reference prices, shipping, install and maintenance in Colombia.",
+    "q1": "Are listed prices final?",
+    "a1": "They are reference prices: stock, import, warranty, quantity and city move them. Each project is quoted.",
+    "q2": "How long is delivery?",
+    "a2": "In stock: 1–5 business days. On order: 5–15 days. Custom project (engineering + install): 10–30 business days.",
+    "q3": "What does an installed package include?",
+    "a3": "Cameras, recorder, disk, cabling, supplies, connectors, mobile/remote setup and install. 4-cam home: $1.2–1.8M; 8-cam retail: $2.5–4M COP.",
+    "q4": "Is there monthly maintenance?",
+    "a4": "Yes: Basic $150–300k, Pro $300–600k and Enterprise $600k–1.5M+ per month, with visits, cleaning and reports.",
+    "q5": "Which brands do you carry?",
+    "a5": "Premium: Hikvision, Dahua, Uniview. Pro: + ZKTeco. Home/SMB: HiLook, EZVIZ, IMOU, TP-Link Tapo.",
+    "q6": "Can I watch from my phone?",
+    "a6": "Yes. All kits and WiFi cams include a mobile app (Android/iOS) with real-time video, two-way audio and alerts.",
+    "q7": "Do you sell only, or also install?",
+    "a7": "Both: supply, assembly, setup and install in capitals (1–3 days) and nationwide (3–7 days).",
+    "q8": "Do units carry warranty?",
+    "a8": "All carry manufacturer warranty plus tech support in Colombia.",
+    "side_t": "STILL STUCK?",
+    "side_d": "Send 3 facade + gate photos. Camera map + quote in 24 h."
+  },
+  "e404": {
+    "kicker": "ERROR 404 · SIGNAL LOST",
+    "t": "THIS FEED WENT DARK.",
+    "d": "The page moved, was renamed, or never existed. Pick a live feed below — or ask dispatch.",
+    "b1": "Back to home",
+    "b2": "Contact dispatch",
+    "hint": "Tip: check the URL spelling, or use search on the blog grid."
+  },
+  "cat": {
+    "k": "SALES CATALOG",
+    "t": "ELECTRONIC SECURITY & VIDEO SURVEILLANCE.",
+    "d": "Sales + install in Colombia. Reference prices in COP: stock, import, warranty, quantity and city move them.",
+    "cta": "Quote",
+    "all": "View all categories",
+    "th_code": "Code",
+    "th_prod": "Product",
+    "th_spec": "Sales spec",
+    "th_price": "Ref. price COP",
+    "th_eta": "Lead time",
+    "g1": "Security cameras",
+    "g2": "DVR / XVR / NVR",
+    "g3": "Disks & storage",
+    "g4": "PoE switches & networks",
+    "g5": "Cabling & accessories",
+    "g6": "UPS & power protection",
+    "g7": "Monitoring",
+    "g8": "Access control",
+    "g9": "Alarms",
+    "g10": "Video door phones",
+    "g11": "Fence & perimeter",
+    "g12": "Racks & monitoring",
+    "brands_k": "BRANDS BY LINE",
+    "brands_t": "WE CARRY THE OFFICIAL LINES.",
+    "l1": "Premium line",
+    "l1d": "Hikvision · Dahua · Uniview",
+    "l2": "Pro line",
+    "l2d": "Hikvision · Dahua · Uniview · ZKTeco",
+    "l3": "Home / SMB line",
+    "l3d": "HiLook · EZVIZ · IMOU · TP-Link Tapo",
+    "eta_k": "LEAD TIMES",
+    "eta_t": "STOCK, ORDER & PROJECT.",
+    "e1": "Stocked product",
+    "e1d": "Estimated delivery: 1–5 business days.",
+    "e2": "Made-to-order product",
+    "e2d": "Estimated delivery: 5–15 business days.",
+    "e3": "Custom project",
+    "e3d": "Engineering, assembly, setup and install: 10–30 business days.",
+    "e4": "Enterprise project",
+    "e4d": "Per site survey, import and infrastructure.",
+    "refs_k": "REFERENCES",
+    "refs_t": "MANUFACTURERS & DEALERS.",
+    "note": "We don't sell imported supply as “own manufacturing”: we sell supply, assembly, setup and install."
+  }
 }

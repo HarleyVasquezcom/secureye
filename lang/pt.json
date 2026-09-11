@@ -1,20 +1,138 @@
 {
-  "nav": { "home": "Início", "about": "Sobre", "service": "Serviços", "pricing": "Preços", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Artigo", "team": "Equipa", "testi": "Depoimentos", "contact": "Contacto", "quote": "Pedir orçamento", "pages": "Páginas", "faq": "FAQ" },
-  "top": { "hours": "SEG–SÁB · 08:00–20:00 · LINHA 24/7" },
-  "hero": { "kicker": "● REC — VIGILÂNCIA HD · NVR · INSTALAÇÃO · SUPORTE", "t1a": "OLHOS EM", "t1b": "CADA ÂNGULO.", "sub": "CCTV 4K, NVR + backup na nuvem e instalação certificada para casas, retalho e indústria. Projeto em 24h. Instalação em 48h.", "cta1": "Vistoria gratuita", "cta2": "Ver preços", "s1t": "DISSUASÃO 4K, DIA E NOITE", "s1d": "ColorVu + IR até 40m. Deteção IA reduz falsos alarmes em 92%.", "s2t": "NVR + NUVEM, ZERO ÂNGULOS MORTOS", "s2d": "Kits PoE 4–64ch, 30 dias de retenção, app + sala de controlo.", "s3t": "INSTALAR · MANTER · MONITORAR", "s3d": "Técnicos certificados, 3 anos de garantia, suporte 24/7 com SLA." },
-  "strip": { "a": "4K ULTRA-HD", "b": "DETEÇÃO IA", "c": "NVR + NUVEM", "d": "MONITORIZAÇÃO 24/7", "e": "GARANTIA 3 ANOS", "f": "INSTALAÇÃO 48H" },
-  "stats": { "cams": "Câmaras instaladas", "sites": "Locais protegidos", "years": "Anos de serviço", "sla": "Resposta SLA" },
-  "home_about": { "k": "QUEM SOMOS", "t": "ENGENHEIROS DE SEGURANÇA, NÃO VENDEDORES.", "d": "Levantamento, cablagem limpa, zonas de movimento afinadas e um sistema que a sua equipa usa de verdade.", "cta": "Sobre a empresa" },
-  "svc": { "k": "O QUE FAZEMOS", "t": "SERVIÇOS CCTV COMPLETOS.", "d": "Levantamento → instalação → monitorização. Um contrato, um SLA.", "cta": "Todos os serviços" },
-  "services": { "s1t": "Instalação CCTV", "s1d": "Kits PoE 4/8/16ch, domes antivandalismo, bullet + PTZ.", "s2t": "NVR e armazenamento", "s2d": "NVR RAID, retenção 30–90 dias, UPS + espelho na nuvem.", "s3t": "Monitorização remota", "s3d": "Central 24/7, áudio bidirecional, eventos verificados.", "s4t": "Videoporteiro + acessos", "s4d": "Portões e portas ligados às câmaras. Uma app: ver, falar, abrir.", "s5t": "Manutenção", "s5d": "Limpeza, firmware, foco, saúde do HDD, SLA 8h.", "s6t": "Auditoria e upgrade", "s6d": "Mapa de ângulos mortos. Reaproveita cabo e sobe para 4K." },
-  "pricing": { "k": "PREÇOS", "t": "PACKS FECHADOS. SEM SURPRESAS.", "d": "Hardware + instalação + 3 anos de garantia.", "cta": "Escolher plano", "pop": "MAIS INSTALADO" },
-  "blog": { "k": "NOTAS DE CAMPO", "t": "DO BLOG.", "cta": "Ler artigo", "all": "Todos os artigos" },
-  "testi": { "k": "DEPOIMENTOS", "t": "CONFIANÇA NO TURNO DA NOITE.", "d": "4,9/5 em 210 avaliações verificadas." },
-  "cta_band": { "t": "UMA VISTORIA. ZERO ÂNGULOS MORTOS.", "d": "Envie 3 fotos da fachada + portão. Devolvemos mapa + orçamento fechado em 24h.", "b1": "Pedir vistoria", "b2": "Ligar à central" },
-  "news": { "t": "BOLETIM TURNO DA NOITE.", "d": "Um email/mês: táticas, alertas de firmware, sem spam.", "ph": "email profissional", "b": "Subscrever", "ok": "Subscrição confirmada. Verifique o email." },
-  "foot": { "d": "Projeto, instalação e monitorização CCTV 24/7. Licenciado, seguro, RGPD.", "col1": "Empresa", "col2": "Serviços", "col3": "Central 24/7", "rights": "Todos os direitos reservados." },
-  "contact": { "k": "CONTACTO", "t": "FALE COM A CENTRAL.", "d": "Anexe fotos ou plantas — resposta em < 4h úteis.", "name": "Nome completo", "msg": "Descreva o local (portas, portão, ângulos mortos…)", "send": "Enviar mensagem", "ok": "Mensagem recebida. A central responderá.", "info": "Sede e central" },
-  "about_page": { "k": "SOBRE NÓS", "t": "A EQUIPA POR TRÁS DAS LENTES.", "d": "12 engenheiros, 3 operadores, 1 obsessão: zero ângulos mortos." },
-  "team": { "k": "EQUIPA", "t": "OS OPERADORES.", "d": "Engenheiros licenciados + veteranos de central." },
-  "form": { "comment_t": "Deixe um comentário", "c_send": "Publicar", "c_ok": "Comentário em moderação. Obrigado!" }
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "service": "Serviços",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "blogGrid": "Blog",
+    "blogDetail": "Artigo",
+    "team": "Equipa",
+    "testi": "Depoimentos",
+    "contact": "Contacto",
+    "quote": "Pedir orçamento",
+    "pages": "Páginas",
+    "faq": "FAQ",
+    "catalog": "Catálogo"
+  },
+  "top": {
+    "hours": "SEG–SÁB · 08:00–20:00 · LINHA 24/7"
+  },
+  "hero": {
+    "kicker": "● REC — VIGILÂNCIA HD · NVR · INSTALAÇÃO · SUPORTE",
+    "t1a": "OLHOS EM",
+    "t1b": "CADA ÂNGULO.",
+    "sub": "CCTV 4K, NVR + backup na nuvem e instalação certificada para casas, retalho e indústria. Projeto em 24h. Instalação em 48h.",
+    "cta1": "Vistoria gratuita",
+    "cta2": "Ver preços",
+    "s1t": "DISSUASÃO 4K, DIA E NOITE",
+    "s1d": "ColorVu + IR até 40m. Deteção IA reduz falsos alarmes em 92%.",
+    "s2t": "NVR + NUVEM, ZERO ÂNGULOS MORTOS",
+    "s2d": "Kits PoE 4–64ch, 30 dias de retenção, app + sala de controlo.",
+    "s3t": "INSTALAR · MANTER · MONITORAR",
+    "s3d": "Técnicos certificados, 3 anos de garantia, suporte 24/7 com SLA."
+  },
+  "strip": {
+    "a": "4K ULTRA-HD",
+    "b": "DETEÇÃO IA",
+    "c": "NVR + NUVEM",
+    "d": "MONITORIZAÇÃO 24/7",
+    "e": "GARANTIA 3 ANOS",
+    "f": "INSTALAÇÃO 48H"
+  },
+  "stats": {
+    "cams": "Câmaras instaladas",
+    "sites": "Locais protegidos",
+    "years": "Anos de serviço",
+    "sla": "Resposta SLA"
+  },
+  "home_about": {
+    "k": "QUEM SOMOS",
+    "t": "ENGENHEIROS DE SEGURANÇA, NÃO VENDEDORES.",
+    "d": "Levantamento, cablagem limpa, zonas de movimento afinadas e um sistema que a sua equipa usa de verdade.",
+    "cta": "Sobre a empresa"
+  },
+  "svc": {
+    "k": "O QUE FAZEMOS",
+    "t": "SERVIÇOS CCTV COMPLETOS.",
+    "d": "Levantamento → instalação → monitorização. Um contrato, um SLA.",
+    "cta": "Todos os serviços"
+  },
+  "services": {
+    "s1t": "Instalação CCTV",
+    "s1d": "Kits PoE 4/8/16ch, domes antivandalismo, bullet + PTZ.",
+    "s2t": "NVR e armazenamento",
+    "s2d": "NVR RAID, retenção 30–90 dias, UPS + espelho na nuvem.",
+    "s3t": "Monitorização remota",
+    "s3d": "Central 24/7, áudio bidirecional, eventos verificados.",
+    "s4t": "Videoporteiro + acessos",
+    "s4d": "Portões e portas ligados às câmaras. Uma app: ver, falar, abrir.",
+    "s5t": "Manutenção",
+    "s5d": "Limpeza, firmware, foco, saúde do HDD, SLA 8h.",
+    "s6t": "Auditoria e upgrade",
+    "s6d": "Mapa de ângulos mortos. Reaproveita cabo e sobe para 4K."
+  },
+  "pricing": {
+    "k": "PREÇOS",
+    "t": "PACKS FECHADOS. SEM SURPRESAS.",
+    "d": "Hardware + instalação + 3 anos de garantia.",
+    "cta": "Escolher plano",
+    "pop": "MAIS INSTALADO"
+  },
+  "blog": {
+    "k": "NOTAS DE CAMPO",
+    "t": "DO BLOG.",
+    "cta": "Ler artigo",
+    "all": "Todos os artigos"
+  },
+  "testi": {
+    "k": "DEPOIMENTOS",
+    "t": "CONFIANÇA NO TURNO DA NOITE.",
+    "d": "4,9/5 em 210 avaliações verificadas."
+  },
+  "cta_band": {
+    "t": "UMA VISTORIA. ZERO ÂNGULOS MORTOS.",
+    "d": "Envie 3 fotos da fachada + portão. Devolvemos mapa + orçamento fechado em 24h.",
+    "b1": "Pedir vistoria",
+    "b2": "Ligar à central"
+  },
+  "news": {
+    "t": "BOLETIM TURNO DA NOITE.",
+    "d": "Um email/mês: táticas, alertas de firmware, sem spam.",
+    "ph": "email profissional",
+    "b": "Subscrever",
+    "ok": "Subscrição confirmada. Verifique o email."
+  },
+  "foot": {
+    "d": "Projeto, instalação e monitorização CCTV 24/7. Licenciado, seguro, RGPD.",
+    "col1": "Empresa",
+    "col2": "Serviços",
+    "col3": "Central 24/7",
+    "rights": "Todos os direitos reservados."
+  },
+  "contact": {
+    "k": "CONTACTO",
+    "t": "FALE COM A CENTRAL.",
+    "d": "Anexe fotos ou plantas — resposta em < 4h úteis.",
+    "name": "Nome completo",
+    "msg": "Descreva o local (portas, portão, ângulos mortos…)",
+    "send": "Enviar mensagem",
+    "ok": "Mensagem recebida. A central responderá.",
+    "info": "Sede e central"
+  },
+  "about_page": {
+    "k": "SOBRE NÓS",
+    "t": "A EQUIPA POR TRÁS DAS LENTES.",
+    "d": "12 engenheiros, 3 operadores, 1 obsessão: zero ângulos mortos."
+  },
+  "team": {
+    "k": "EQUIPA",
+    "t": "OS OPERADORES.",
+    "d": "Engenheiros licenciados + veteranos de central."
+  },
+  "form": {
+    "comment_t": "Deixe um comentário",
+    "c_send": "Publicar",
+    "c_ok": "Comentário em moderação. Obrigado!"
+  }
 }

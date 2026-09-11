@@ -1,20 +1,138 @@
 {
-  "nav": { "home": "Start", "about": "Über uns", "service": "Leistungen", "pricing": "Preise", "blog": "Blog", "blogGrid": "Blog-Übersicht", "blogDetail": "Artikel", "team": "Team", "testi": "Referenzen", "contact": "Kontakt", "quote": "Angebot anfordern", "pages": "Seiten", "faq": "FAQ" },
-  "top": { "hours": "MO–SA · 08:00–20:00 · 24/7 NOTRUF" },
-  "hero": { "kicker": "● REC — HD-ÜBERWACHUNG · NVR · MONTAGE · SUPPORT", "t1a": "AUGEN AUF", "t1b": "JEDEM WINKEL.", "sub": "4K-CCTV, NVR + Cloud-Backup und zertifizierte Montage für Zuhause, Retail und Industrie. Planung in 24h. Montage in 48h.", "cta1": "Gratis Begehung", "cta2": "Preise ansehen", "s1t": "4K-ABSCHRECKUNG, TAG & NACHT", "s1d": "ColorVu + IR bis 40m. KI-Erkennung senkt Fehlalarme um 92%.", "s2t": "NVR + CLOUD, KEINE BLIND SPOTS", "s2d": "PoE-Kits 4–64ch, 30 Tage Speicherung, App + Leitstelle.", "s3t": "MONTAGE · WARTUNG · MONITORING", "s3d": "Zertifizierte Techniker, 3 Jahre Garantie, 24/7-Support mit SLA." },
-  "strip": { "a": "4K ULTRA-HD", "b": "KI-ERKENNUNG", "c": "NVR + CLOUD", "d": "24/7 MONITORING", "e": "3 JAHRE GARANTIE", "f": "48H-MONTAGE" },
-  "stats": { "cams": "Installierte Kameras", "sites": "Geschützte Objekte", "years": "Jahre im Einsatz", "sla": "SLA-Reaktion" },
-  "home_about": { "k": "WER WIR SIND", "t": "SICHERHEITSINGENIEURE, KEINE KISTENSCHIEBER.", "d": "Wir planen, verkabeln sauber, justieren Bewegungszonen und übergeben ein System, das Ihr Team wirklich nutzt.", "cta": "Über uns" },
-  "svc": { "k": "LEISTUNGEN", "t": "CCTV AUS EINER HAND.", "d": "Begehung → Montage → Monitoring. Ein Vertrag, ein SLA.", "cta": "Alle Leistungen" },
-  "services": { "s1t": "CCTV-Montage", "s1d": "PoE-Kits 4/8/16ch, Vandalismus-Domes, Bullet + PTZ.", "s2t": "NVR & Speicher", "s2d": "RAID-NVR, 30–90 Tage, USV + Cloud-Spiegel.", "s3t": "Fernüberwachung", "s3d": "Leitstelle 24/7, Zwei-Wege-Audio, verifizierte Events.", "s4t": "Sprechanlage + Zutritt", "s4d": "Tor + Tür an Kameras gekoppelt. Eine App: sehen, sprechen, öffnen.", "s5t": "Wartung & Reparatur", "s5d": "Reinigung, Firmware, Fokus, HDD-Check, SLA 8h.", "s6t": "Audit & Upgrade", "s6d": "Blind-Spot-Karte für Altanlagen. Kabel reuse, Köpfe auf 4K." },
-  "pricing": { "k": "PREISE", "t": "FESTPAKETE. KEINE ÜBERRASCHUNGEN.", "d": "Hardware + Montage + 3 Jahre Garantie.", "cta": "Paket wählen", "pop": "MEISTGEBUCHT" },
-  "blog": { "k": "AUS DEM EINSATZ", "t": "AUS DEM BLOG.", "cta": "Artikel öffnen", "all": "Alle Artikel" },
-  "testi": { "k": "REFERENZEN", "t": "VERTRAUEN IN DER NACHTSCHICHT.", "d": "4,9/5 aus 210 verifizierten Bewertungen." },
-  "cta_band": { "t": "EINE BEGEHUNG. NULL BLIND SPOTS.", "d": "3 Fotos von Fassade + Tor senden. Kameraplan + Festpreis in 24h.", "b1": "Begehung anfragen", "b2": "Leitstelle anrufen" },
-  "news": { "t": "NACHTSCHICHT-BRIEF.", "d": "Ein E-Mail/Monat: Taktik, Firmware-Alarm, kein Spam.", "ph": "Geschäfts-E-Mail", "b": "Abonnieren", "ok": "Abonniert. Bitte Postfach bestätigen." },
-  "foot": { "d": "CCTV-Planung, Montage und 24/7-Monitoring. Lizenziert, versichert, DSGVO-konform.", "col1": "Firma", "col2": "Leistungen", "col3": "Leitstelle 24/7", "rights": "Alle Rechte vorbehalten." },
-  "contact": { "k": "KONTAKT", "t": "SPRECHEN SIE MIT DER LEITSTELLE.", "d": "Fotos oder Pläne mitsenden — Antwort in < 4 Arbeitsstunden.", "name": "Vollständiger Name", "msg": "Objekt beschreiben (Türen, Tor, tote Winkel…)", "send": "Nachricht senden", "ok": "Nachricht erhalten. Leitstelle meldet sich.", "info": "Zentrale & Leitstelle" },
-  "about_page": { "k": "ÜBER UNS", "t": "DIE CREW HINTER DEN LINSEN.", "d": "12 Techniker, 3 Operatoren, 1 Ziel: keine toten Winkel." },
-  "team": { "k": "TEAM", "t": "DIE OPERATOREN.", "d": "Lizenzierte Ingenieure + Leitstellen-Profis." },
-  "form": { "comment_t": "Kommentar schreiben", "c_send": "Absenden", "c_ok": "Kommentar in Moderation. Danke!" }
+  "nav": {
+    "home": "Start",
+    "about": "Über uns",
+    "service": "Leistungen",
+    "pricing": "Preise",
+    "blog": "Blog",
+    "blogGrid": "Blog-Übersicht",
+    "blogDetail": "Artikel",
+    "team": "Team",
+    "testi": "Referenzen",
+    "contact": "Kontakt",
+    "quote": "Angebot anfordern",
+    "pages": "Seiten",
+    "faq": "FAQ",
+    "catalog": "Katalog"
+  },
+  "top": {
+    "hours": "MO–SA · 08:00–20:00 · 24/7 NOTRUF"
+  },
+  "hero": {
+    "kicker": "● REC — HD-ÜBERWACHUNG · NVR · MONTAGE · SUPPORT",
+    "t1a": "AUGEN AUF",
+    "t1b": "JEDEM WINKEL.",
+    "sub": "4K-CCTV, NVR + Cloud-Backup und zertifizierte Montage für Zuhause, Retail und Industrie. Planung in 24h. Montage in 48h.",
+    "cta1": "Gratis Begehung",
+    "cta2": "Preise ansehen",
+    "s1t": "4K-ABSCHRECKUNG, TAG & NACHT",
+    "s1d": "ColorVu + IR bis 40m. KI-Erkennung senkt Fehlalarme um 92%.",
+    "s2t": "NVR + CLOUD, KEINE BLIND SPOTS",
+    "s2d": "PoE-Kits 4–64ch, 30 Tage Speicherung, App + Leitstelle.",
+    "s3t": "MONTAGE · WARTUNG · MONITORING",
+    "s3d": "Zertifizierte Techniker, 3 Jahre Garantie, 24/7-Support mit SLA."
+  },
+  "strip": {
+    "a": "4K ULTRA-HD",
+    "b": "KI-ERKENNUNG",
+    "c": "NVR + CLOUD",
+    "d": "24/7 MONITORING",
+    "e": "3 JAHRE GARANTIE",
+    "f": "48H-MONTAGE"
+  },
+  "stats": {
+    "cams": "Installierte Kameras",
+    "sites": "Geschützte Objekte",
+    "years": "Jahre im Einsatz",
+    "sla": "SLA-Reaktion"
+  },
+  "home_about": {
+    "k": "WER WIR SIND",
+    "t": "SICHERHEITSINGENIEURE, KEINE KISTENSCHIEBER.",
+    "d": "Wir planen, verkabeln sauber, justieren Bewegungszonen und übergeben ein System, das Ihr Team wirklich nutzt.",
+    "cta": "Über uns"
+  },
+  "svc": {
+    "k": "LEISTUNGEN",
+    "t": "CCTV AUS EINER HAND.",
+    "d": "Begehung → Montage → Monitoring. Ein Vertrag, ein SLA.",
+    "cta": "Alle Leistungen"
+  },
+  "services": {
+    "s1t": "CCTV-Montage",
+    "s1d": "PoE-Kits 4/8/16ch, Vandalismus-Domes, Bullet + PTZ.",
+    "s2t": "NVR & Speicher",
+    "s2d": "RAID-NVR, 30–90 Tage, USV + Cloud-Spiegel.",
+    "s3t": "Fernüberwachung",
+    "s3d": "Leitstelle 24/7, Zwei-Wege-Audio, verifizierte Events.",
+    "s4t": "Sprechanlage + Zutritt",
+    "s4d": "Tor + Tür an Kameras gekoppelt. Eine App: sehen, sprechen, öffnen.",
+    "s5t": "Wartung & Reparatur",
+    "s5d": "Reinigung, Firmware, Fokus, HDD-Check, SLA 8h.",
+    "s6t": "Audit & Upgrade",
+    "s6d": "Blind-Spot-Karte für Altanlagen. Kabel reuse, Köpfe auf 4K."
+  },
+  "pricing": {
+    "k": "PREISE",
+    "t": "FESTPAKETE. KEINE ÜBERRASCHUNGEN.",
+    "d": "Hardware + Montage + 3 Jahre Garantie.",
+    "cta": "Paket wählen",
+    "pop": "MEISTGEBUCHT"
+  },
+  "blog": {
+    "k": "AUS DEM EINSATZ",
+    "t": "AUS DEM BLOG.",
+    "cta": "Artikel öffnen",
+    "all": "Alle Artikel"
+  },
+  "testi": {
+    "k": "REFERENZEN",
+    "t": "VERTRAUEN IN DER NACHTSCHICHT.",
+    "d": "4,9/5 aus 210 verifizierten Bewertungen."
+  },
+  "cta_band": {
+    "t": "EINE BEGEHUNG. NULL BLIND SPOTS.",
+    "d": "3 Fotos von Fassade + Tor senden. Kameraplan + Festpreis in 24h.",
+    "b1": "Begehung anfragen",
+    "b2": "Leitstelle anrufen"
+  },
+  "news": {
+    "t": "NACHTSCHICHT-BRIEF.",
+    "d": "Ein E-Mail/Monat: Taktik, Firmware-Alarm, kein Spam.",
+    "ph": "Geschäfts-E-Mail",
+    "b": "Abonnieren",
+    "ok": "Abonniert. Bitte Postfach bestätigen."
+  },
+  "foot": {
+    "d": "CCTV-Planung, Montage und 24/7-Monitoring. Lizenziert, versichert, DSGVO-konform.",
+    "col1": "Firma",
+    "col2": "Leistungen",
+    "col3": "Leitstelle 24/7",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "k": "KONTAKT",
+    "t": "SPRECHEN SIE MIT DER LEITSTELLE.",
+    "d": "Fotos oder Pläne mitsenden — Antwort in < 4 Arbeitsstunden.",
+    "name": "Vollständiger Name",
+    "msg": "Objekt beschreiben (Türen, Tor, tote Winkel…)",
+    "send": "Nachricht senden",
+    "ok": "Nachricht erhalten. Leitstelle meldet sich.",
+    "info": "Zentrale & Leitstelle"
+  },
+  "about_page": {
+    "k": "ÜBER UNS",
+    "t": "DIE CREW HINTER DEN LINSEN.",
+    "d": "12 Techniker, 3 Operatoren, 1 Ziel: keine toten Winkel."
+  },
+  "team": {
+    "k": "TEAM",
+    "t": "DIE OPERATOREN.",
+    "d": "Lizenzierte Ingenieure + Leitstellen-Profis."
+  },
+  "form": {
+    "comment_t": "Kommentar schreiben",
+    "c_send": "Absenden",
+    "c_ok": "Kommentar in Moderation. Danke!"
+  }
 }

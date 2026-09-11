@@ -1,6 +1,6 @@
 {
   "meta": { "brand": "SECUREYE", "tag": "Cámaras de Seguridad y Video Vigilancia en Colombia" },
-  "nav": { "home": "Inicio", "about": "Nosotros", "service": "Cámaras y Kits", "pricing": "Precios", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Artículo", "team": "Equipo", "testi": "Opiniones", "contact": "Contacto", "quote": "Pedir cotización", "pages": "Páginas", "lang": "Idioma", "faq": "FAQ", "e404k": "ERROR 404 · SEÑAL PERDIDA" },
+  "nav": { "home": "Inicio", "about": "Nosotros", "service": "Cámaras y Kits", "pricing": "Precios", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Artículo", "team": "Equipo", "testi": "Opiniones", "contact": "Contacto", "quote": "Pedir cotización", "pages": "Páginas", "lang": "Idioma", "faq": "FAQ", "catalog": "Catálogo", "e404k": "ERROR 404 · SEÑAL PERDIDA" },
   "top": { "phone": "+57 (601) 508-1234", "email": "contacto@secureye.co", "hours": "LUN–SÁB · 08:00–20:00 · LÍNEA 24/7 · TODA COLOMBIA" },
   "hero": {
     "kicker": "● REC — CÁMARAS DE SEGURIDAD · DVR/NVR · INSTALACIÓN · SOPORTE EN COLOMBIA",
@@ -17,14 +17,32 @@
   "home_about": { "k": "QUIÉNES SOMOS", "t": "INGENIEROS DE SEGURIDAD EN COLOMBIA.", "d": "Asesoría personalizada, instalación profesional y respaldo total. Trabajamos Hikvision, Dahua, Ezviz, HiLook y UNV con garantía del fabricante.", "p1": "Técnicos certificados en el país", "p2": "Hikvision · Dahua · Ezviz · HiLook · UNV", "p3": "Garantía + soporte técnico en Colombia", "cta": "Sobre nosotros" },
   "svc": { "k": "CATÁLOGO", "t": "CÁMARAS, KITS E INSTALACIÓN.", "d": "Venta de equipos, kits DVR/NVR e instalación en toda Colombia.", "cta": "Ver catálogo" },
   "services": {
-    "s1t": "Cámaras Bullet (Exterior)", "s1d": "2MP/4MP/8MP, IR hasta 30m, IP67 agua y polvo, lente fija o varifocal. Desde $180.000 COP.",
-    "s2t": "Cámaras Domo (Int./Ext.)", "s2d": "Discretas y elegantes 2MP/4MP/8MP, IR 30m, antivandálicas IK10. Desde $160.000 COP.",
-    "s3t": "Cámaras PTZ (Zoom 25x)", "s3d": "Movimiento horizontal y vertical, zoom óptico 25x, seguimiento inteligente. Desde $1.200.000 COP.",
-    "s4t": "Kits DVR/NVR", "s4d": "4/8/16 canales, disco 1TB–4TB, cámaras según kit y app móvil. Desde $1.200.000 COP.",
-    "s5t": "Cámaras WiFi (Interior)", "s5d": "2MP/4MP, conexión WiFi, audio bidireccional, app Android/iOS. Desde $120.000 COP.",
-    "s6t": "Instalación y Soporte", "s6d": "Instalación profesional en capitales (1–3 días) y resto del país (3–7 días). Soporte técnico en Colombia."
+    "s1t": "Cámaras de seguridad", "s1d": "IP 2MP–8MP, domo, bala, WiFi, ColorVu, IA, PTZ y térmicas. 15 referencias desde $150.000 COP.",
+    "s2t": "DVR / XVR / NVR", "s2d": "4–64 canales, H.265+, PoE y analítica. Desde $250.000 COP. Entrega 1–15 días.",
+    "s3t": "Discos y almacenamiento", "s3d": "HDD vigilancia 1TB–12TB según cámaras. Desde $250.000 COP. Operación continua.",
+    "s4t": "Redes PoE y cableado", "s4d": "Switches 4–24 puertos, UTP Cat5e/Cat6, BNC, baluns y patch panels.",
+    "s5t": "Energía y UPS", "s5d": "UPS 600–2200 VA, reguladores y fuentes CCTV 12V. Desde $30.000 COP.",
+    "s6t": "Monitores y video wall", "s6d": "Monitores 22–32\", TV 43–55\" y video wall bajo cotización.",
+    "s7t": "Control de acceso", "s7d": "RFID, huella, facial, torniquetes y vehicular. Desde tarjetas de $3.000 COP.",
+    "s8t": "Alarmas", "s8d": "Paneles, PIR, magnéticos, sirenas y GSM/4G. Sensores desde $20.000 COP.",
+    "s9t": "Videoporteros", "s9d": "Básicos, IP, WiFi y kits residenciales o de edificio. Desde $250.000 COP.",
+    "s10t": "Protección perimetral", "s10d": "Cercas eléctricas, barreras vehiculares y automatización de portones.",
+    "s11t": "Instalación profesional", "s11d": "18 servicios: visita, diseño, cableado, configuración y puesta en marcha.",
+    "s12t": "Mantenimiento mensual", "s12d": "Planes Básico, Profesional y Empresarial desde $150.000 COP/mes."
   },
-  "pricing": { "k": "PRECIOS EN COP", "t": "EQUIPOS + KITS INSTALADOS.", "d": "Precios según resolución, marca y número de cámaras. IVA incluido. Garantía del fabricante.", "cta": "Cotizar este kit", "pop": "MÁS VENDIDO", "per": "/desde · instalado" },
+  "pricing": { "k": "PRECIOS DE REFERENCIA", "t": "PAQUETES + MANTENIMIENTO.", "d": "Precios orientativos en COP: cambian por inventario, importación, garantía, cantidad y ciudad. Cotizamos cada proyecto.", "cta": "Cotizar este paquete", "pop": "MÁS VENDIDO", "per": "/rango orientativo" },
+  "pkgs": {
+    "p1t": "HOGAR BÁSICO · 4 CAM", "p1p": "$1.200.000 – $1.800.000", "p1f": ["4 cámaras 2 MP", "DVR 4ch · HDD 1 TB", "Cableado, fuentes y app móvil", "Instalación básica incluida"],
+    "p2t": "COMERCIO · 8 CAM", "p2p": "$2.500.000 – $4.000.000", "p2f": ["8 cámaras 2–4 MP", "DVR/XVR 8/16ch · HDD 2 TB", "Configuración remota", "Instalación incluida"],
+    "p3t": "EMPRESARIAL IP · 8 CAM", "p3p": "$6.000.000 – $10.000.000", "p3f": ["8 cámaras IP 4 MP", "NVR 16ch · PoE · HDD 4 TB", "Rack, Cat6, UPS y remoto", "Instalación incluida"],
+    "p4t": "INDUSTRIAL · 16–32 CAM", "p4p": "Desde $15.000.000", "p4f": ["IP 4/8 MP + PTZ + analítica", "NVR empresarial · 8–16 TB", "Red estructurada + monitoreo", "Ingeniería a medida"]
+  },
+  "maint": {
+    "k": "INGRESO RECURRENTE", "t": "MANTENIMIENTO MENSUAL.", "d": "Cuidamos tu sistema todo el año.",
+    "m1t": "Plan Básico", "m1p": "$150.000 – $300.000/mes", "m1f": ["Revisión remota y diagnóstico", "Soporte telefónico", "Revisión de grabación"],
+    "m2t": "Plan Profesional", "m2p": "$300.000 – $600.000/mes", "m2f": ["Visita periódica + limpieza", "Revisión cámaras y NVR/DVR", "Almacenamiento y remoto"],
+    "m3t": "Plan Empresarial", "m3p": "$600.000 – $1.500.000+/mes", "m3f": ["Preventivo + soporte prioritario", "Red, UPS, acceso e informes", "Monitoreo del sistema"]
+  },
   "plans": {
     "p1t": "KIT HOGAR 4-CAM", "p1p": "$1.490.000", "p1f": ["4× domo 2MP interior", "DVR 4ch · 1TB · app móvil", "Instalación incluida (capitales)", "Garantía + soporte en Colombia"],
     "p2t": "KIT NEGOCIO 8-CAM", "p2p": "$3.290.000", "p2f": ["8× bullet/domo 4MP + IR 30m", "NVR 8ch · 2TB · app móvil", "Instalación + capacitación", "Garantía + soporte en Colombia"],
@@ -40,16 +58,36 @@
   "team": { "k": "EQUIPO", "t": "CONOCE A LOS OPERADORES.", "d": "Técnicos certificados + veteranos de central." },
   "form": { "comment_t": "Deja un comentario", "comment_d": "Moderado. Sin enlaces, sin spam.", "c_name": "Nombre", "c_email": "Correo", "c_msg": "Comentario", "c_send": "Publicar", "c_ok": "Comentario en moderación. ¡Gracias!" },
   "faq": {
-    "t": "RESPUESTAS CLARAS, SIN JERGA.", "d": "Precios, envíos, instalación y garantía en Colombia.",
-    "q1": "¿Cuánto cuesta una cámara de seguridad?", "a1": "WiFi desde $120.000, domo desde $160.000, bullet desde $180.000, PTZ desde $1.200.000 COP, según resolución (2MP/4MP/8MP) y marca.",
-    "q2": "¿Cuánto tarda la entrega en Colombia?", "a2": "Stock: 1–3 días hábiles a todo el país. Fabricación o importación: 5–10 días hábiles según modelo y cantidad.",
-    "q3": "¿Instalan fuera de Bogotá?", "a3": "Sí. Capitales principales: 1–3 días hábiles. Otras ciudades: 3–7 días hábiles. La instalación es opcional y la cotizamos con el kit.",
-    "q4": "¿Los equipos tienen garantía?", "a4": "Todos cuentan con garantía del fabricante y soporte técnico en Colombia.",
-    "q5": "¿Qué marcas trabajan?", "a5": "Las más comunes en Colombia: Hikvision, Dahua, Ezviz, HiLook y UNV.",
+    "t": "RESPUESTAS CLARAS, SIN JERGA.", "d": "Precios de referencia, envíos, instalación y mantenimiento en Colombia.",
+    "q1": "¿Los precios publicados son finales?", "a1": "Son precios de referencia: cambian por inventario, importación, garantía, cantidad y ciudad. Cada proyecto se cotiza a medida.",
+    "q2": "¿Cuánto tarda la entrega?", "a2": "Inventario: 1–5 días hábiles. Bajo pedido: 5–15 días. Proyecto personalizado (ingeniería + instalación): 10–30 días hábiles.",
+    "q3": "¿Qué incluye un paquete instalado?", "a3": "Cámaras, grabador, disco, cableado, fuentes, conectores, configuración móvil/remota e instalación. Hogar 4-cam: $1.2–1.8M; Comercio 8-cam: $2.5–4M COP.",
+    "q4": "¿Tienen mantenimiento mensual?", "a4": "Sí: Básico $150–300 mil, Profesional $300–600 mil y Empresarial $600 mil–1.5M+ al mes, con visitas, limpieza e informes.",
+    "q5": "¿Qué marcas manejan?", "a5": "Premium: Hikvision, Dahua, Uniview. Profesional: + ZKTeco. Hogar/PYME: HiLook, EZVIZ, IMOU, TP-Link Tapo.",
     "q6": "¿Puedo ver las cámaras desde mi celular?", "a6": "Sí. Todos los kits y cámaras WiFi incluyen app móvil (Android/iOS) con video en tiempo real, audio bidireccional y notificaciones.",
-    "q7": "¿Qué incluye un kit DVR/NVR?", "a7": "Grabador (DVR o NVR de 4/8/16 canales), disco duro (1TB–4TB), cámaras según el kit y acceso remoto por app móvil.",
-    "q8": "¿Cámara WiFi o cableada?", "a8": "WiFi: fácil de instalar, ideal interior. Cableada (PoE): más estable, hasta 90 m, ideal exterior y bodegas. Te asesoramos según el sitio.",
+    "q7": "¿Venden solo equipos o también instalan?", "a7": "Ambas: suministro, ensamble, configuración e instalación en capitales (1–3 días) y resto del país (3–7 días).",
+    "q8": "¿Los equipos tienen garantía?", "a8": "Todos cuentan con garantía del fabricante y soporte técnico en Colombia.",
     "side_t": "¿AÚN CON DUDAS?", "side_d": "Envía 3 fotos de fachada + portón. Mapa de cámaras + cotización en 24 h."
   },
-  "e404": { "kicker": "ERROR 404 · SEÑAL PERDIDA", "t": "ESTA SEÑAL SE APAGÓ.", "d": "La página se movió o nunca existió. Elige una señal activa o habla con central.", "b1": "Volver al inicio", "b2": "Contactar central", "hint": "Revisa la URL o usa el buscador del blog." }
+  "e404": { "kicker": "ERROR 404 · SEÑAL PERDIDA", "t": "ESTA SEÑAL SE APAGÓ.", "d": "La página se movió o nunca existió. Elige una señal activa o habla con central.", "b1": "Volver al inicio", "b2": "Contactar central", "hint": "Revisa la URL o usa el buscador del blog." },
+  "cat": {
+    "k": "CATÁLOGO COMERCIAL", "t": "SEGURIDAD ELECTRÓNICA Y VIDEOVIGILANCIA.",
+    "d": "Venta e instalación en Colombia. Precios de referencia en COP: varían por inventario, importación, garantía, cantidad y ciudad.",
+    "cta": "Cotizar", "all": "Ver todas las categorías",
+    "th_code": "Código", "th_prod": "Producto", "th_spec": "Especificación comercial", "th_price": "Precio ref. COP", "th_eta": "Entrega",
+    "g1": "Cámaras de seguridad", "g2": "DVR / XVR / NVR", "g3": "Discos y almacenamiento", "g4": "Switches PoE y redes",
+    "g5": "Cableado y accesorios", "g6": "UPS y protección eléctrica", "g7": "Monitoreo", "g8": "Control de acceso",
+    "g9": "Alarmas", "g10": "Videoporteros", "g11": "Cercos y perimetral", "g12": "Racks y monitoreo",
+    "brands_k": "MARCAS POR LÍNEA", "brands_t": "TRABAJAMOS LAS LÍNEAS OFICIALES.",
+    "l1": "Línea Premium", "l1d": "Hikvision · Dahua · Uniview",
+    "l2": "Línea Profesional", "l2d": "Hikvision · Dahua · Uniview · ZKTeco",
+    "l3": "Línea Hogar / PYME", "l3d": "HiLook · EZVIZ · IMOU · TP-Link Tapo",
+    "eta_k": "TIEMPOS DE ENTREGA", "eta_t": "INVENTARIO, PEDIDO Y PROYECTO.",
+    "e1": "Producto de inventario", "e1d": "Entrega estimada: 1–5 días hábiles.",
+    "e2": "Producto bajo pedido", "e2d": "Entrega estimada: 5–15 días hábiles.",
+    "e3": "Proyecto personalizado", "e3d": "Ingeniería, ensamble, configuración e instalación: 10–30 días hábiles.",
+    "e4": "Proyecto empresarial", "e4d": "Según levantamiento técnico, importación e infraestructura.",
+    "refs_k": "REFERENCIAS", "refs_t": "FABRICANTES Y DISTRIBUIDORES.",
+    "note": "No anunciamos como “fabricación propia” lo que es suministro importado: vendemos suministro, ensamble, configuración e instalación."
+  }
 }
