@@ -7,7 +7,7 @@
   var LANGS = ["en","es","de","pt","fr","it"];
   var LABELS = {en:"EN",es:"ES",de:"DE",pt:"PT",fr:"FR",it:"IT"};
   var cache = {};
-  function current(){ try{ return localStorage.getItem("seclang") || "en"; }catch(e){ return "en"; } }
+  function current(){ try{ return localStorage.getItem("seclang") || "es"; }catch(e){ return "es"; } }
   function set(l){ try{ localStorage.setItem("seclang", l); }catch(e){} }
   function getJSON(l){
     if(cache[l]) return Promise.resolve(cache[l]);

@@ -1,49 +1,50 @@
 {
-  "meta": { "brand": "SECUREYE", "tag": "CCTV & Security Services" },
+  "meta": { "brand": "SECUREYE", "tag": "Security Cameras & Video Surveillance in Colombia" },
   "nav": {
-    "home": "Home", "about": "About", "service": "Services", "pricing": "Pricing",
+    "home": "Home", "about": "About", "service": "Cameras & Kits", "pricing": "Pricing",
     "blog": "Blog", "blogGrid": "Blog Grid", "blogDetail": "Blog Detail",
     "team": "Team", "testi": "Testimonials", "contact": "Contact", "quote": "Get a Quote",
     "pages": "Pages", "lang": "Language", "faq": "FAQ",
     "e404k": "ERROR 404 · SIGNAL LOST"
   },
-  "top": { "phone": "+1 (555) 013-4477", "email": "ops@secureye.example", "hours": "MON–SAT · 08:00–20:00 · 24/7 ALARM LINE" },
+  "top": { "phone": "+57 (601) 508-1234", "email": "contacto@secureye.co", "hours": "MON–SAT · 08:00–20:00 · 24/7 LINE · ALL COLOMBIA" },
   "hero": {
-    "kicker": "● REC — HD SURVEILLANCE · NVR · INSTALL · SUPPORT",
-    "t1a": "EYES ON", "t1b": "EVERY ANGLE.",
-    "sub": "4K CCTV, NVR + cloud backup, and certified installation for homes, retail and industry. Design in 24h. Install in 48h.",
-    "cta1": "Get a free site survey", "cta2": "View pricing",
-    "s1t": "4K DETERRENCE, DAY & NIGHT", "s1d": "ColorVu + IR up to 40m. AI human/vehicle detection cuts false alarms by 92%.",
-    "s2t": "NVR + CLOUD, ZERO BLIND SPOTS", "s2d": "PoE kits 4–64ch, 30-day retention, phone + control-room viewing.",
-    "s3t": "INSTALL · MAINTAIN · MONITOR", "s3d": "Certified techs, 3-year warranty, 24/7 support line and SLA response."
+    "kicker": "● REC — SECURITY CAMERAS · DVR/NVR · INSTALL · SUPPORT IN COLOMBIA",
+    "t1a": "SECURITY CAMERAS", "t1b": "& VIDEO SURVEILLANCE.",
+    "sub": "Protect what matters most with reliable tech: Hikvision, Dahua, Ezviz, HiLook and UNV. Real-time video from your phone. Quote in 24h.",
+    "cta1": "Get a free quote", "cta2": "View prices in COP",
+    "s1t": "HOMES & APARTMENTS", "s1d": "2MP/4MP WiFi and dome cams with two-way audio. Watch from your phone (Android/iOS).",
+    "s2t": "BUSINESS & WAREHOUSES", "s2d": "4MP/8MP bullet and PTZ, IR up to 30m, IP67. DVR/NVR kits 4–16ch with 1TB–4TB HDD.",
+    "s3t": "WE INSTALL ALL OVER COLOMBIA", "s3d": "Capitals in 1–3 business days, rest of the country in 3–7. Manufacturer warranty + local support."
   },
-  "strip": { "a": "4K ULTRA-HD", "b": "AI DETECTION", "c": "NVR + CLOUD", "d": "24/7 MONITORING", "e": "3-YEAR WARRANTY", "f": "48H INSTALL" },
+  "strip": { "a": "HIKVISION · DAHUA", "b": "2MP / 4MP / 8MP", "c": "DVR + NVR", "d": "PHONE APP", "e": "WARRANTY + CO SUPPORT", "f": "HOME · SHOP · WAREHOUSE" },
+  "seg": { "k": "WHO FOR", "t": "HOMES, SHOPS AND WAREHOUSES.", "s1": "Homes", "s1d": "WiFi + indoor dome", "s2": "Business", "s2d": "Dome + access", "s3": "Retail stores", "s3d": "Outdoor bullet + POS", "s4": "Warehouses", "s4d": "PTZ + 16ch kits" },
   "stats": { "cams": "Cameras installed", "sites": "Sites protected", "years": "Years on duty", "sla": "SLA response" },
-  "home_about": { "k": "WHO WE ARE", "t": "SECURITY ENGINEERS, NOT BOX-MOVERS.", "d": "We survey, design cable paths, tune motion zones and hand over a system your staff actually uses. 480+ sites, 9.600+ channels live.", "p1": "Licensed & insured installers", "p2": "Hikvision · Dahua · Axis partner", "p3": "GDPR signage + retention policy", "cta": "About the company" },
-  "svc": { "k": "WHAT WE DO", "t": "FULL-STACK CCTV SERVICES.", "d": "Survey → install → monitor. One contract, one SLA.", "cta": "All services" },
+  "home_about": { "k": "WHO WE ARE", "t": "SECURITY ENGINEERS IN COLOMBIA.", "d": "Personal advice, professional install and full backup. Hikvision, Dahua, Ezviz, HiLook and UNV with manufacturer warranty.", "p1": "Certified local technicians", "p2": "Hikvision · Dahua · Ezviz · HiLook · UNV", "p3": "Warranty + tech support in Colombia", "cta": "About the company" },
+  "svc": { "k": "CATALOG", "t": "CAMERAS, KITS & INSTALL.", "d": "Equipment sales, DVR/NVR kits and install across Colombia.", "cta": "View catalog" },
   "services": {
-    "s1t": "CCTV Installation", "s1d": "4/8/16ch PoE kits, vandal domes, bullet + PTZ. Clean cabling, labeled NVR.",
-    "s2t": "NVR & Storage", "s2d": "RAID NVR, 30–90 day retention sizing, UPS + off-site cloud mirror.",
-    "s3t": "Remote Monitoring", "s3d": "24/7 control room, two-way audio challenge, police-callable events.",
-    "s4t": "Video Intercom + Access", "s4d": "Gate + door stations tied to cameras. One app: see, talk, open.",
-    "s5t": "Maintenance & Repair", "s5d": "Lens cleaning, firmware, focus/back-focus, HDD health, SLA 8h.",
-    "s6t": "Audit & Upgrade", "s6d": "Blind-spot mapping of legacy estates. Reuse cable where safe, swap heads to 4K."
+    "s1t": "Bullet Cameras (Outdoor)", "s1d": "2MP/4MP/8MP, IR up to 30m, IP67 dust/water, fixed or varifocal lens. From $180,000 COP.",
+    "s2t": "Dome Cameras (In/Out)", "s2d": "Discreet 2MP/4MP/8MP, 30m IR, IK10 vandal-proof. From $160,000 COP.",
+    "s3t": "PTZ Cameras (25x Zoom)", "s3d": "Pan/tilt, 25x optical zoom, smart tracking. From $1,200,000 COP.",
+    "s4t": "DVR/NVR Kits", "s4d": "4/8/16ch, 1TB–4TB HDD, cameras per kit + mobile app. From $1,200,000 COP.",
+    "s5t": "WiFi Cameras (Indoor)", "s5d": "2MP/4MP, WiFi, two-way audio, Android/iOS app. From $120,000 COP.",
+    "s6t": "Install & Support", "s6d": "Pro install in capitals (1–3 days) and nationwide (3–7 days). Tech support in Colombia."
   },
-  "pricing": { "k": "PRICING PLAN", "t": "FLAT PACKS. NO SURPRISES.", "d": "Hardware + install + 3-yr warranty. Monitoring optional.", "cta": "Choose plan", "pop": "MOST DEPLOYED", "per": "/one-time" },
+  "pricing": { "k": "PRICES IN COP", "t": "EQUIPMENT + INSTALLED KITS.", "d": "By resolution, brand and camera count. VAT included. Manufacturer warranty.", "cta": "Quote this kit", "pop": "BEST SELLER", "per": "/from · installed" },
   "plans": {
-    "p1t": "HOME 4-CAM", "p1p": "$690", "p1f": ["4× 4K PoE turrets", "4ch NVR · 2TB · 30 days", "Phone app + 1 TV view", "48h install"],
-    "p2t": "RETAIL 8-CAM", "p2p": "$1,490", "p2f": ["8× 4K + 1 PTZ option", "8ch NVR · 6TB · 30 days", "POS overlay + people count", "Staff training"],
-    "p3t": "SITE 16-CAM", "p3p": "$2,890", "p3f": ["16× 4K + ANPR ready", "16ch RAID · 60 days", "Control-room wall + cloud", "SLA 8h · 3 years"]
+    "p1t": "HOME KIT 4-CAM", "p1p": "$1,490,000", "p1f": ["4× 2MP indoor domes", "4ch DVR · 1TB · mobile app", "Install included (capitals)", "Warranty + Colombia support"],
+    "p2t": "SHOP KIT 8-CAM", "p2p": "$3,290,000", "p2f": ["8× 4MP bullet/dome + 30m IR", "8ch NVR · 2TB · mobile app", "Install + staff training", "Warranty + Colombia support"],
+    "p3t": "WAREHOUSE KIT 16-CAM", "p3p": "$6,490,000", "p3f": ["16× 4MP + optional 25x PTZ", "16ch NVR · 4TB · remote access", "Nationwide install 3–7 days", "Warranty + Colombia support"]
   },
   "blog": { "k": "FIELD NOTES", "t": "FROM THE BLOG GRID.", "cta": "Open article", "all": "All articles" },
   "testi": { "k": "TESTIMONIALS", "t": "TRUSTED ON NIGHT SHIFT.", "d": "4.9/5 across 210 verified reviews." },
-  "cta_band": { "t": "ONE WALKTHROUGH. ZERO BLIND SPOTS.", "d": "Send 3 photos of your facade + gate. We return a camera map + fixed quote in 24h.", "b1": "Request survey", "b2": "Call dispatch" },
+  "cta_band": { "t": "YOUR SAFETY, OUR PRIORITY.", "d": "Personal advice: send 3 facade photos and get a camera map + quote in 24h.", "b1": "Request quote", "b2": "Call dispatch" },
   "news": { "t": "GET THE NIGHT-SHIFT BRIEF.", "d": "One email/month: deterrence tactics, firmware alerts, no spam.", "ph": "work email", "b": "Subscribe", "ok": "Subscribed. Check your inbox to confirm." },
-  "foot": { "d": "CCTV design, install and 24/7 monitoring. Licensed, insured, GDPR-aware.", "col1": "Company", "col2": "Services", "col3": "Dispatch 24/7", "rights": "All rights reserved." },
-  "contact": { "k": "CONTACT", "t": "TALK TO DISPATCH.", "d": "Attach photos or floor plans — we answer in < 4 business hours.", "name": "Full name", "email": "Email", "phone": "Phone", "topic": "Topic", "msg": "Tell us about the site (doors, gate, blind spots…)", "send": "Send message", "ok": "Message received. Dispatch will reply shortly.", "info": "HQ & control room", "map": "Coverage map" },
-  "about_page": { "k": "ABOUT US", "t": "THE CREW BEHIND THE LENSES.", "d": "12 field engineers, 3 control-room operators, 1 obsession: no blind spots." },
+  "foot": { "d": "Video surveillance systems, security cameras, install and tech support across Colombia.", "col1": "Company", "col2": "Catalog", "col3": "Dispatch 24/7", "rights": "All rights reserved." },
+  "contact": { "k": "CONTACT", "t": "TALK TO DISPATCH.", "d": "Reply in < 4 business hours. Install in capitals 1–3 days, rest of country 3–7 days.", "name": "Full name", "email": "Email", "phone": "Mobile", "topic": "Topic", "msg": "Tell us about the site (home, shop, warehouse, cameras needed…)", "send": "Send message", "ok": "Message received. Dispatch will reply shortly.", "info": "Bogotá D.C. & control room", "map": "National coverage" },
+  "about_page": { "k": "ABOUT US", "t": "THE CREW BEHIND THE LENSES.", "d": "12 field techs, 3 operators, 1 obsession: zero blind spots, across Colombia." },
   "team": { "k": "TEAM", "t": "MEET THE OPERATORS.", "d": "Licensed engineers + control-room veterans." },
   "form": { "comment_t": "Leave a comment", "comment_d": "Moderated. No links, no spam.", "c_name": "Name", "c_email": "Email", "c_msg": "Comment", "c_send": "Post comment", "c_ok": "Comment queued for moderation. Thanks!" },
-  "faq": { "t": "STRAIGHT ANSWERS. NO JARGON.", "d": "Storage, cable, AI, GDPR, monitoring — the 8 questions dispatch hears daily.", "q1": "How much storage do I need for 30 days of 4K?", "a1": "Rule of thumb: 4× 4K cams at 8 Mbps + 40% motion ≈ 2 TB for 30 days.", "q2": "How far can PoE cameras run from the NVR?", "a2": "90 m on solid copper Cat6, surge-protected both ends.", "q3": "Will AI detection stop false alarms from trees and cats?", "a3": "Yes — when tuned. Tight polygons + min-object size cut events ~92%.", "q4": "Is CCTV GDPR-compliant? Do I need signs?", "a4": "Yes, signs are mandatory where cameras cover shared/public areas.", "q5": "What does 24/7 monitoring cost, and what happens on alarm?", "a5": "From $49/mo. Operator reviews in <60 s, audio challenge, then escalation.", "q6": "What warranty and SLA do I get?", "a6": "3-year warranty. Retail/Site: 8 h SLA with loan cameras.", "q7": "Can I view cameras on my phone and in the office?", "a7": "Both. Phone app + TV/PC view included in every pack.", "q8": "How fast is the quote? Do you reuse existing cable?", "a8": "Fixed quote in 24 h. We reuse healthy copper after a cable test.", "side_t": "STILL STUCK?", "side_d": "Send 3 photos of facade + gate. Camera map + fixed quote in 24 h." },
+  "faq": { "t": "STRAIGHT ANSWERS. NO JARGON.", "d": "Prices, shipping, install and warranty in Colombia.", "q1": "How much does a security camera cost?", "a1": "WiFi from $120,000, dome from $160,000, bullet from $180,000, PTZ from $1,200,000 COP, by resolution (2MP/4MP/8MP) and brand.", "q2": "How long is delivery in Colombia?", "a2": "In stock: 1–3 business days nationwide. Made-to-order/import: 5–10 business days by model and quantity.", "q3": "Do you install outside Bogotá?", "a3": "Yes. Main capitals: 1–3 business days. Other cities: 3–7 business days. Install is optional, quoted with the kit.", "q4": "Do units carry warranty?", "a4": "All carry manufacturer warranty plus tech support in Colombia.", "q5": "Which brands do you carry?", "a5": "Colombia's most common: Hikvision, Dahua, Ezviz, HiLook and UNV.", "q6": "Can I watch from my phone?", "a6": "Yes. All kits and WiFi cams include a mobile app (Android/iOS) with real-time video, two-way audio and alerts.", "q7": "What does a DVR/NVR kit include?", "a7": "Recorder (4/8/16ch DVR or NVR), HDD (1TB–4TB), cameras per kit and remote app access.", "q8": "WiFi or wired camera?", "a8": "WiFi: easy install, best indoors. Wired (PoE): steadier, up to 90 m, best outdoors and warehouses.", "side_t": "STILL STUCK?", "side_d": "Send 3 facade + gate photos. Camera map + quote in 24 h." },
   "e404": { "kicker": "ERROR 404 · SIGNAL LOST", "t": "THIS FEED WENT DARK.", "d": "The page moved, was renamed, or never existed. Pick a live feed below — or ask dispatch.", "b1": "Back to home", "b2": "Contact dispatch", "hint": "Tip: check the URL spelling, or use search on the blog grid." }
 }
