@@ -338,6 +338,7 @@
     "e4d": "Per site survey, import and infrastructure.",
     "refs_k": "REFERENCES",
     "refs_t": "MANUFACTURERS & DEALERS.",
-    "note": "We don't sell imported supply as “own manufacturing”: we sell supply, assembly, setup and install."
+    "note": "We don't sell imported supply as “own manufacturing”: we sell supply, assembly, setup and install.",
+  "store": { "t": "STORE — CART & WHATSAPP.", "d": "100+ catalog products + packages & maintenance. Add to cart and quote on WhatsApp in 1 tap.", "searchPh": "Search by code or name…", "viewCart": "View cart", "note": "Reference prices in COP — stock, import and city move them. Cart is a quote, not direct payment.", "empty": "No results for those filters.", "cartT": "Your cart", "cartEmpty": "Your cart is empty. Add products from the store.", "cartNote": "Estimated total without VAT or shipping.", "wa": "Quote on WhatsApp", "clear": "Clear", "form": "Form" }
   }
 }

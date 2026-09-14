@@ -1,6 +1,6 @@
 {
   "meta": { "brand": "SECUREYE", "tag": "Cámaras de Seguridad y Video Vigilancia en Colombia" },
-  "nav": { "home": "Inicio", "about": "Nosotros", "service": "Cámaras y Kits", "pricing": "Precios", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Artículo", "team": "Equipo", "testi": "Opiniones", "contact": "Contacto", "quote": "Pedir cotización", "pages": "Páginas", "lang": "Idioma", "faq": "FAQ", "catalog": "Catálogo", "e404k": "ERROR 404 · SEÑAL PERDIDA" },
+  "nav": { "home": "Inicio", "about": "Nosotros", "service": "Cámaras y Kits", "pricing": "Precios", "blog": "Blog", "blogGrid": "Blog", "blogDetail": "Artículo", "team": "Equipo", "testi": "Opiniones", "contact": "Contacto", "quote": "Pedir cotización", "pages": "Páginas", "lang": "Idioma", "faq": "FAQ", "catalog": "Catálogo", "store": "Tienda", "e404k": "ERROR 404 · SEÑAL PERDIDA" },
   "top": { "phone": "+57 (601) 508-1234", "email": "contacto@secureye.co", "hours": "LUN–SÁB · 08:00–20:00 · LÍNEA 24/7 · TODA COLOMBIA" },
   "hero": {
     "kicker": "● REC — CÁMARAS DE SEGURIDAD · DVR/NVR · INSTALACIÓN · SOPORTE EN COLOMBIA",
@@ -89,5 +89,6 @@
     "e4": "Proyecto empresarial", "e4d": "Según levantamiento técnico, importación e infraestructura.",
     "refs_k": "REFERENCIAS", "refs_t": "FABRICANTES Y DISTRIBUIDORES.",
     "note": "No anunciamos como “fabricación propia” lo que es suministro importado: vendemos suministro, ensamble, configuración e instalación."
-  }
+  },
+  "store": { "t": "TIENDA — CARRITO Y WHATSAPP.", "d": "100+ productos del catálogo + paquetes y mantenimiento. Añade al carrito y cotiza por WhatsApp en 1 clic.", "searchPh": "Buscar por código o nombre…", "viewCart": "Ver carrito", "note": "Precios de referencia en COP — varían por inventario, importación y ciudad. El carrito envía una cotización, no es pago directo.", "empty": "Sin resultados con esos filtros.", "cartT": "Tu carrito", "cartEmpty": "Tu carrito está vacío. Añade productos desde la tienda.", "cartNote": "Total estimado sin IVA ni envío.", "wa": "Cotizar por WhatsApp", "clear": "Vaciar", "form": "Formulario" }
 }
