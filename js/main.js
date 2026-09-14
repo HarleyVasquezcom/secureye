@@ -44,15 +44,15 @@
       var isReal = f.hasAttribute("data-form") && f.getAttribute("action") && f.getAttribute("action").indexOf("formsubmit.co")>=0;
       if(!isReal){
         ev.preventDefault();
-        var ok0 = f.querySelector("[data-form-ok]");
-        if(ok0){ ok0.classList.remove("d-none"); setTimeout(function(){ ok0.classList.add("d-none"); }, 5000); }
+        var ok0 = f.querySelector("[data-form-ok]") || (f.nextElementSibling && f.nextElementSibling.hasAttribute && f.nextElementSibling.hasAttribute("data-form-ok") ? f.nextElementSibling : null) || f.parentElement.querySelector("[data-form-ok]");
+        if(ok0){ ok0.classList.remove("d-none"); ok0.scrollIntoView({behavior:"smooth",block:"center"}); setTimeout(function(){ ok0.classList.add("d-none"); }, 5000); }
         f.reset(); return;
       }
       ev.preventDefault();
       var btn = f.querySelector('button[type="submit"]') || f.querySelector("button");
       var orig = btn ? btn.innerHTML : "";
       if(btn){ btn.disabled=true; btn.innerHTML='<span class="spinner-border spinner-border-sm me-1"></span>Enviando…'; }
-      var ok = f.querySelector("[data-form-ok]");
+      var ok = f.querySelector("[data-form-ok]") || (f.nextElementSibling && f.nextElementSibling.hasAttribute && f.nextElementSibling.hasAttribute("data-form-ok") ? f.nextElementSibling : null) || f.parentElement.querySelector("[data-form-ok]") || document.querySelector("[data-form-ok]");
       var fd = new FormData(f);
       // ensure FormSubmit AJAX header
       fetch(f.action, {method:"POST", body:fd, headers:{"Accept":"application/json"}}).then(function(r){
