@@ -3,7 +3,7 @@
 (function(){
   "use strict";
   const LS = "secureye_cart_v1";
-  const WA = "576015081234"; // +57 (601) 508-1234
+  const WA = "573182020729"; // +57 (318) 202-0729
   const fmt = (n) => n==null ? "Cotización" : "$" + n.toLocaleString("es-CO") + " COP";
   const range = (p) => p.priceMax ? `Desde ${fmt(p.price)} · hasta ${fmt(p.priceMax)}` : fmt(p.price);
   const catalog = window.SECUREYE_CATALOG || [];
