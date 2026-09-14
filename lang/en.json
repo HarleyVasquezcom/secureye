@@ -223,7 +223,7 @@
     "d": "One email/month: deterrence tactics, firmware alerts, no spam.",
     "ph": "work email",
     "b": "Subscribe",
-    "ok": "Subscribed. Check your inbox to confirm."
+    "ok": "You have been subscribed to our Newsletter"
   },
   "foot": {
     "d": "Video surveillance systems, security cameras, install and tech support across Colombia.",
@@ -242,7 +242,7 @@
     "topic": "Topic",
     "msg": "Tell us about the site (home, shop, warehouse, cameras needed…)",
     "send": "Send message",
-    "ok": "Message received. Dispatch will reply shortly.",
+    "ok": "Your message was sent successfully, we will contact you soon.",
     "info": "Bogotá D.C. & control room",
     "map": "National coverage"
   },

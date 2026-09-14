@@ -59,7 +59,7 @@
         if(!r.ok) throw new Error("HTTP "+r.status);
         return r.json().catch(function(){ return {}; });
       }).then(function(){
-        if(ok){ ok.textContent = ok.getAttribute("data-i18n")==="contact.ok" ? "¡Mensaje enviado a harleyvasquez@icloud.com!" : "¡Suscrito! Revisa harleyvasquez@icloud.com"; ok.classList.remove("d-none"); setTimeout(function(){ ok.classList.add("d-none"); }, 6000); }
+        if(ok){ ok.textContent = ok.getAttribute("data-i18n")==="contact.ok" ? "Su mensaje se envió con exito, nos pondremos en contacto con usted pronto." : "Ha quedado inscrito a nuestra Newsletter"; ok.classList.remove("d-none"); setTimeout(function(){ ok.classList.add("d-none"); }, 6000); }
         f.reset();
       }).catch(function(err){
         // Fallback: open mailto if AJAX fails (e.g. CORS offline)
