@@ -37,13 +37,35 @@
   }, {threshold:.4});
   document.querySelectorAll("[data-count]").forEach(function(el){ cio.observe(el); });
 
-  // Fake form handling (newsletter / contact / comment) — front-end demo
+  // Real form handling: contact + newsletter → harleyvasquez@icloud.com via FormSubmit AJAX
+  // Fallback: comment forms stay demo-only
   document.querySelectorAll("form[data-demo-form]").forEach(function(f){
     f.addEventListener("submit", function(ev){
+      var isReal = f.hasAttribute("data-form") && f.getAttribute("action") && f.getAttribute("action").indexOf("formsubmit.co")>=0;
+      if(!isReal){
+        ev.preventDefault();
+        var ok0 = f.querySelector("[data-form-ok]");
+        if(ok0){ ok0.classList.remove("d-none"); setTimeout(function(){ ok0.classList.add("d-none"); }, 5000); }
+        f.reset(); return;
+      }
       ev.preventDefault();
+      var btn = f.querySelector('button[type="submit"]') || f.querySelector("button");
+      var orig = btn ? btn.innerHTML : "";
+      if(btn){ btn.disabled=true; btn.innerHTML='<span class="spinner-border spinner-border-sm me-1"></span>Enviando…'; }
       var ok = f.querySelector("[data-form-ok]");
-      if(ok){ ok.classList.remove("d-none"); setTimeout(function(){ ok.classList.add("d-none"); }, 5000); }
-      f.reset();
+      var fd = new FormData(f);
+      // ensure FormSubmit AJAX header
+      fetch(f.action, {method:"POST", body:fd, headers:{"Accept":"application/json"}}).then(function(r){
+        if(!r.ok) throw new Error("HTTP "+r.status);
+        return r.json().catch(function(){ return {}; });
+      }).then(function(){
+        if(ok){ ok.textContent = ok.getAttribute("data-i18n")==="contact.ok" ? "¡Mensaje enviado a harleyvasquez@icloud.com!" : "¡Suscrito! Revisa harleyvasquez@icloud.com"; ok.classList.remove("d-none"); setTimeout(function(){ ok.classList.add("d-none"); }, 6000); }
+        f.reset();
+      }).catch(function(err){
+        // Fallback: open mailto if AJAX fails (e.g. CORS offline)
+        var mail = "mailto:harleyvasquez@icloud.com?subject="+encodeURIComponent(fd.get("_subject")||"SECUREYE web")+"&body="+encodeURIComponent("Nombre: "+(fd.get("name")||"")+"%0AEmail: "+(fd.get("email")||"")+"%0AMensaje: "+(fd.get("message")||fd.get("email")||""));
+        if(ok){ ok.textContent = "Sin conexión — abre tu correo: "+mail; ok.classList.remove("d-none"); }
+      }).finally(function(){ if(btn){ btn.disabled=false; btn.innerHTML=orig; } });
     });
   });
 
